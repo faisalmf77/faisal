@@ -46,4 +46,4 @@ async function wx(){const w=await getJSON('https://api.open-meteo.com/v1/forecas
  if(w){const[i,d]=WMO(w.current.weather_code);$('wTemp').textContent=`${i} ${Math.round(w.current.temperature_2m)}°`;$('wDesc').textContent=`${d} • ${Math.round(w.daily.temperature_2m_min[0])}°–${Math.round(w.daily.temperature_2m_max[0])}°`}else $('wDesc').textContent='غير متاح حالياً'}
 async function pt(){const[y,m,d]=nowR().date.split('-');const j=await getJSON(`https://api.aladhan.com/v1/timings/${d}-${m}-${y}?latitude=24.7136&longitude=46.6753&method=4`,'pt');if(j){PT={};Object.keys(PRAY).forEach(k=>PT[k]=j.data.timings[k].slice(0,5))}sched();tick()}
 $('noraL').href=C.noraUrl||'#';tick();setInterval(tick,1000);data();wx();pt();
-if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+

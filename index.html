@@ -5,7 +5,32 @@
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="أبو خالد">
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head><body>
+<link rel="stylesheet" href="style.css"><script>
+window.APP_VERSION='20261023-0107';
+(function(){
+var V=window.APP_VERSION,ss=window.sessionStorage,sw=navigator.serviceWorker;
+function reset(){var p=[];
+ if(sw)p.push(sw.getRegistrations().then(function(rs){return Promise.all(rs.map(function(r){return r.unregister()}))}));
+ if(window.caches)p.push(caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.delete(k)}))}));
+ return Promise.all(p).catch(function(){});}
+function go(){location.replace(location.pathname+'?v='+Date.now());}
+window.hardRefresh=function(){reset().then(go);};
+function check(){fetch('version.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){
+ if(j&&j.v&&j.v!==V&&ss.getItem('updTry')!==j.v){ss.setItem('updTry',j.v);reset().then(go);}}).catch(function(){});}
+if(sw){var had=!!sw.controller,t;
+ sw.addEventListener('controllerchange',function(){if(!had){had=true;return;}if(ss.getItem('ccTry')===V)return;ss.setItem('ccTry',V);t=setTimeout(function(){location.reload()},1500);});
+ window.addEventListener('pagehide',function(){clearTimeout(t)});
+ sw.register('sw.js',{updateViaCache:'none'}).then(function(reg){
+  function up(){try{reg.update()}catch(e){}}up();
+  document.addEventListener('visibilitychange',function(){if(!document.hidden){up();check();}});
+  setInterval(up,600000);}).catch(function(){});}
+window.addEventListener('load',check);
+window.addEventListener('pageshow',function(e){if(e.persisted)check()});
+document.addEventListener('DOMContentLoaded',function(){var v=document.getElementById('appVer'),b=document.getElementById('refreshBtn');
+ if(v)v.textContent='نسخة '+V;if(b)b.onclick=function(){b.textContent='⏳ ...';window.hardRefresh();};});
+})();
+</script>
+</head><body>
 <header class="hero"><div class="title">يوم أبو خالد</div><div id="greet" class="greet"></div>
 <div class="clock" id="clock">--:--</div><div class="date" id="date"></div></header>
 <nav class="tabs"><a href="#dailyNote">💌 رسالة اليوم</a><a href="#sched">جدولي</a><a href="#mk">الأسواق</a><a href="#stk">أسهمي</a><a href="#econ">اقتصاد</a><a href="#spa">واس</a><a href="#uqn">أم القرى</a><a href="#re">العقار</a><a href="#fb">الكورة</a><a href="#adh">الأذكار</a><a href="#honeymoon">شهر العسل</a><a href="#quickLinks">روابط</a><a href="#ask">طلبات</a></nav>
@@ -35,6 +60,6 @@
 <textarea id="askText" rows="4" style="width:100%;box-sizing:border-box;border-radius:12px;padding:10px;font-size:16px;background:#0a1426;color:#ffffff;border:1px solid #c9a227" placeholder="مثال: أضف سهم سابك..."></textarea>
 <button id="askBtn" style="margin-top:10px;width:100%;padding:12px;border:0;border-radius:12px;background:#c9a227;color:#fff;font-weight:700;font-size:16px">أرسل للرجيلي</button>
 </section>
-<footer>الرجيلي ✦</footer>
+<footer>الرجيلي ✦<div style="font:11px/1.8 -apple-system,system-ui,sans-serif;opacity:.85;margin-top:8px;direction:rtl"><span id="appVer"></span> · <button id="refreshBtn" type="button" style="font:inherit;color:inherit;background:none;border:1px solid currentColor;border-radius:12px;padding:3px 10px;cursor:pointer">🔄 تحديث الصفحة</button></div></footer>
 <script src="config.js"></script><script src="app.js"></script><script src="v2.js"></script><script>document.getElementById('askBtn').onclick=function(){var t=document.getElementById('askText').value.trim();if(!t)return;location.href='https://wa.me/966590900178?text='+encodeURIComponent('طلب للرجيلي (صفحتي): '+t);};</script>
 <script src="note.js"></script></body></html>
