@@ -1,3 +1,4 @@
+const LK='fhqAppts',locAp=()=>{try{return JSON.parse(localStorage.getItem(LK)||'[]')}catch(e){return[]}},allAp=()=>APPTS.concat(locAp());
 const TZ='Asia/Riyadh',$=id=>document.getElementById(id),C=window.HQ_CONFIG||{};
 const PRAY={Fajr:'الفجر',Dhuhr:'الظهر',Asr:'العصر',Maghrib:'المغرب',Isha:'العشاء'};
 const NA='<div class="na">غير متاح حالياً</div>';
@@ -15,11 +16,11 @@ function tick(){const n=nowR(),d=new Date();
  const h=n.min/60;$('greet').textContent=(h<12?'صباح الخير':'مساء الخير')+' يا أبو محمد';
  if(PT){const nx=Object.keys(PRAY).map(k=>({k,m:toMin(PT[k])})).find(p=>p.m*60>n.min*60+n.sec)||{k:'Fajr',m:toMin(PT.Fajr)+1440};
   const s=nx.m*60-(n.min*60+n.sec);$('pName').textContent=PRAY[nx.k];$('pCount').textContent='بعد '+[s/3600|0,(s%3600)/60|0,s%60].map(x=>String(x).padStart(2,'0')).join(':')}}
-function sched(){const n=nowR(),it=APPTS.filter(a=>a.date===n.date);
+function sched(){const n=nowR(),AL=allAp(),it=AL.filter(a=>a.date===n.date);
  if(PT)Object.keys(PRAY).forEach(k=>it.push({start:PT[k],title:'صلاة '+PRAY[k],pr:1}));it.sort((a,b)=>toMin(a.start)-toMin(b.start));
- $('today').innerHTML=it.map(a=>{const s=toMin(a.start),e=a.end?toMin(a.end):s+(a.pr?20:45),c=n.min>=e?'past':n.min>=s?'now':'';return `<li class="${a.pr?'pr':''} ${c}"><span class="tm">${fmt(a.start)}</span><span>${esc(a.title)}</span></li>`}).join('');
- const up=APPTS.filter(a=>a.date>n.date).slice(0,8);
- $('upcoming').innerHTML=up.map(a=>`<li><span class="tm">${a.date.slice(5)}</span><span>${esc(a.title)} • ${fmt(a.start)}</span></li>`).join('')||`<li class="empty">ما فيه مواعيد مسجلة — أرسلها للرجيلي ويرتبها لك</li>`}
+ $('today').innerHTML=it.map(a=>{const s=toMin(a.start),e=a.end?toMin(a.end):s+(a.pr?20:45),c=n.min>=e?'past':n.min>=s?'now':'';return `<li class="${a.pr?'pr':''} ${c}"><span class="tm">${fmt(a.start)}</span><span>${esc(a.title)}${a.place?' • '+esc(a.place):''}</span>${a.lid?`<button class="del" data-lid="${a.lid}">✕</button>`:''}</li>`}).join('');
+ const up=AL.filter(a=>a.date>n.date).sort((x,y)=>(x.date+x.start).localeCompare(y.date+y.start)).slice(0,8);
+ $('upcoming').innerHTML=up.map(a=>`<li><span class="tm">${a.date.slice(5)}</span><span>${esc(a.title)} • ${fmt(a.start)}${a.place?' • '+esc(a.place):''}</span>${a.lid?`<button class="del" data-lid="${a.lid}">✕</button>`:''}</li>`).join('')||`<li class="empty">ما فيه مواعيد مسجلة — أرسلها للرجيلي ويرتبها لك</li>`}
 const chg=c=>c==null?'<span class="chg">—</span>':`<span class="chg ${c>=0?'up':'dn'}">${c>=0?'▲':'▼'} ${Math.abs(c).toFixed(2)}%</span>`;
 const num=(p,cur)=>p==null?'—':(+p).toLocaleString('en-US',{maximumFractionDigits:p<1?4:2})+(cur==='SAR'?' ر.س':cur==='USD'?' $':'');
 const upd=j=>j&&j.updated?`آخر تحديث: ${j.updated} (بتوقيت الرياض)`:'';

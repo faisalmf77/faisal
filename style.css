@@ -16,3 +16,11 @@ h2{margin:0 0 10px;font-size:18px;color:var(--gold);border-right:3px solid var(-
 .tbl{width:100%;border-collapse:collapse;font-size:13px}.tbl td{padding:6px 4px;border-bottom:1px solid var(--line)}.tbl td:last-child{text-align:left;color:var(--gold);font-weight:700}
 .dk{background:#0d1a30;border-radius:12px;padding:10px;margin-bottom:8px;line-height:1.9;font-size:15px}.dk button{background:none;border:1px solid var(--gold);color:var(--gold);border-radius:14px;padding:2px 12px;font-family:inherit}
 footer{text-align:center;color:var(--gold);opacity:.6;margin-top:16px;font-size:12px}
+
+.addb{margin-top:10px;width:100%;padding:10px;border:0;border-radius:12px;background:var(--gold);color:#0a1628;font-weight:700;font-size:15px;font-family:inherit}.addb.ghost{background:none;border:1px solid var(--gold);color:var(--gold)}
+#addF input{display:block;width:100%;margin-top:8px;padding:10px;border-radius:10px;border:1px solid var(--line);background:#0d1a30;color:var(--ink);font-size:16px;font-family:inherit}.r2{display:flex;gap:8px}.r2>*{flex:1}
+.del{margin-right:auto;background:none;border:1px solid var(--dn);color:var(--dn);border-radius:10px;padding:0 8px;font-size:12px}
+.trip{background:#0d1a30;border:1px solid var(--gold);border-radius:12px;padding:8px 10px;font-size:13px;color:var(--gold);margin-bottom:8px;direction:rtl}
+.hmt{display:flex;gap:6px;margin-bottom:6px}.hmt button{flex:1;padding:8px;border-radius:12px;border:1px solid var(--line);background:#0d1a30;color:var(--ink);font-family:inherit;font-size:14px}.hmt button.on{background:var(--gold);color:#0a1628;font-weight:700;border-color:var(--gold)}
+.hg{margin-top:8px}.hg>.sub{color:var(--gold);font-size:13px;margin-bottom:4px}.hp{display:block;background:#0d1a30;border-radius:12px;padding:9px 10px;margin-bottom:6px}.hp b{display:block;direction:ltr;text-align:right;unicode-bidi:plaintext}.hp small{color:var(--mute)}
+.cta{display:block;text-align:center;margin-top:10px;padding:10px;border-radius:12px;border:1px solid var(--gold);color:var(--gold);font-weight:700}

@@ -1,0 +1,13 @@
+(function(){const $=id=>document.getElementById(id),F=$('addF'),WA='966590900178';
+$('addBtn').onclick=()=>{F.hidden=!F.hidden;$('addBtn').hidden=!F.hidden;if(!F.hidden){$('fD').value=nowR().date;$('fT').focus()}};
+$('fX').onclick=()=>{F.hidden=true;$('addBtn').hidden=false};
+F.onsubmit=e=>{e.preventDefault();const a={lid:Date.now().toString(36),title:$('fT').value.trim(),date:$('fD').value,start:$('fS').value,place:$('fP').value.trim(),note:$('fN').value.trim()};
+ if(!a.title)return;const L=locAp();L.push(a);localStorage.setItem(LK,JSON.stringify(L));F.reset();F.hidden=true;$('addBtn').hidden=false;sched();
+ const t='موعد جديد لأبو محمد: '+a.title+' • '+a.date+' • '+a.start+(a.place?' • '+a.place:'')+(a.note?' • '+a.note:'');
+ $('sent').innerHTML=`<div class="note" style="margin-top:8px">✅ انحفظ في جوالك</div><a class="cta" href="https://wa.me/${WA}?text=${encodeURIComponent(t)}">📲 أرسله للرجيلي</a>`};
+$('sched').addEventListener('click',e=>{const id=e.target.dataset&&e.target.dataset.lid;if(!id)return;if(!confirm('أحذف الموعد؟'))return;localStorage.setItem(LK,JSON.stringify(locAp().filter(x=>x.lid!==id)));sched()});
+fetch('data/honeymoon.json').then(r=>r.json()).then(h=>{let cur=0;$('hmNote').textContent=h.note;
+ const draw=()=>{$('hmTabs').innerHTML=h.cities.map((c,i)=>`<button class="${i==cur?'on':''}" data-i="${i}">${c.icon} ${c.city}</button>`).join('');
+  $('hmBody').innerHTML=h.cities[cur].groups.map(([g,l])=>`<div class="hg"><div class="sub">${g}</div>${l.map(([n,d,u])=>`<a class="hp" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(n)}</b><small>${esc(d)}</small></a>`).join('')}</div>`).join('')+`<a class="cta" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent('يالرجيلي أبي أرتب شي في '+h.cities[cur].city+' لشهر العسل: ')}">💙 اطلب من الرجيلي يحجز لك</a>`};
+ $('hmTabs').onclick=e=>{if(e.target.dataset.i!=null){cur=+e.target.dataset.i;draw()}};draw()}).catch(()=>{$('hmBody').innerHTML='<div class="na">تعذّر التحميل</div>'});
+})();

@@ -1,0 +1,158 @@
+{
+ "note": "RUH ← أسبن ٢٦ مارس ٢٠٢٧ · بزنس/أولى · بانتظار اختيارك للرحلة",
+ "cities": [
+  {
+   "city": "أسبن",
+   "icon": "🏔️",
+   "groups": [
+    [
+     "🏨 فنادق",
+     [
+      [
+       "The Little Nell",
+       "فندق التزلج الأشهر عند قاعدة الجبل",
+       "https://www.thelittlenell.com"
+      ],
+      [
+       "The St. Regis Aspen",
+       "فخامة كلاسيكية بقلب البلد وسبا رائع",
+       "https://www.marriott.com/en-us/hotels/asexr-the-st-regis-aspen-resort/overview/"
+      ]
+     ]
+    ],
+    [
+     "🍽️ مطاعم",
+     [
+      [
+       "Matsuhisa Aspen",
+       "سوشي نوبو الأصلي",
+       "https://www.matsuhisarestaurants.com"
+      ],
+      [
+       "Element 47",
+       "مطعم The Little Nell الراقي",
+       "https://www.element47aspen.com"
+      ]
+     ]
+    ],
+    [
+     "✨ تجارب",
+     [
+      [
+       "التزلج في Aspen Mountain",
+       "دروس خاصة للمبتدئين",
+       "https://www.aspensnowmass.com"
+      ],
+      [
+       "Silver Queen Gondola",
+       "إطلالة على القمة وغداء فوق الثلج",
+       "https://www.aspensnowmass.com"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "city": "ميامي",
+   "icon": "🌴",
+   "groups": [
+    [
+     "🏨 فنادق",
+     [
+      [
+       "Faena Hotel Miami Beach",
+       "فخامة وفن على البحر",
+       "https://www.faena.com/miami-beach"
+      ],
+      [
+       "Four Seasons at The Surf Club",
+       "هدوء وأناقة في Surfside",
+       "https://www.fourseasons.com/surfclub/"
+      ]
+     ]
+    ],
+    [
+     "🍽️ مطاعم",
+     [
+      [
+       "Carbone Miami",
+       "إيطالي فاخر وأجواء حلوة",
+       "https://carbonemiami.com"
+      ],
+      [
+       "Le Sirenuse Miami",
+       "روح بوزيتانو على البحر",
+       "https://sirenusemiami.com/en/restaurant"
+      ]
+     ]
+    ],
+    [
+     "✨ تجارب",
+     [
+      [
+       "Miami Design District",
+       "تسوق الماركات والفن",
+       "https://www.miamidesigndistrict.net"
+      ],
+      [
+       "رحلة يخت خاصة",
+       "غروب على خليج بيسكاين",
+       "https://www.google.com/search?q=private+yacht+charter+miami"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "city": "نيويورك",
+   "icon": "🗽",
+   "groups": [
+    [
+     "🏨 فنادق",
+     [
+      [
+       "The Mark",
+       "أيقونة الأبر إيست سايد",
+       "https://www.themarkhotel.com"
+      ],
+      [
+       "Aman New York",
+       "سبا وهدوء بقلب المدينة",
+       "https://www.aman.com/hotels/aman-new-york"
+      ]
+     ]
+    ],
+    [
+     "🍽️ مطاعم",
+     [
+      [
+       "Le Bernardin",
+       "ثلاث نجوم ميشلان للمأكولات البحرية",
+       "https://www.le-bernardin.com"
+      ],
+      [
+       "Carbone New York",
+       "الإيطالي الأشهر في المدينة",
+       "https://carbonenewyork.com"
+      ]
+     ]
+    ],
+    [
+     "✨ تجارب",
+     [
+      [
+       "عرض برودواي",
+       "ليلة مسرح لا تُنسى",
+       "https://www.broadway.org"
+      ],
+      [
+       "Central Park",
+       "نزهة عربة أو مشي بالخريف/الربيع",
+       "https://www.centralparknyc.org"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}
