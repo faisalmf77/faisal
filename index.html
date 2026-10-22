@@ -8,9 +8,10 @@
 <link rel="stylesheet" href="style.css"></head><body>
 <header class="hero"><div class="title">يوم أبو محمد</div><div id="greet" class="greet"></div>
 <div class="clock" id="clock">--:--</div><div class="date" id="date"></div></header>
-<nav class="tabs"><a href="#sched">جدولي</a><a href="#mk">الأسواق</a><a href="#stk">أسهمي</a><a href="#econ">اقتصاد</a><a href="#spa">واس</a><a href="#uqn">أم القرى</a><a href="#re">العقار</a><a href="#fb">الكورة</a><a href="#adh">الأذكار</a><a href="#honeymoon">شهر العسل</a><a href="#quickLinks">روابط</a><a href="#ask">طلبات</a></nav>
+<nav class="tabs"><a href="#dailyNote">💌 رسالة اليوم</a><a href="#sched">جدولي</a><a href="#mk">الأسواق</a><a href="#stk">أسهمي</a><a href="#econ">اقتصاد</a><a href="#spa">واس</a><a href="#uqn">أم القرى</a><a href="#re">العقار</a><a href="#fb">الكورة</a><a href="#adh">الأذكار</a><a href="#honeymoon">شهر العسل</a><a href="#quickLinks">روابط</a><a href="#ask">طلبات</a></nav>
 <section class="row"><div class="card mini"><div class="lbl">طقس الرياض</div><div class="big" id="wTemp">—</div><div class="sub" id="wDesc"></div></div>
 <div class="card mini"><div class="lbl">الصلاة القادمة</div><div class="big" id="pName">—</div><div class="sub" id="pCount"></div></div></section>
+<section class="card" id="dailyNote"></section>
 <section class="card" id="sched"><h2>جدولي ومواعيدي</h2><ul id="today" class="list"></ul><h3>القادم</h3><ul id="upcoming" class="list"></ul><button id="addBtn" class="addb">➕ أضف موعد</button><form id="addF" hidden><input id="fT" placeholder="عنوان الموعد" required><div class="r2"><input id="fD" type="date" required><input id="fS" type="time" required></div><input id="fP" placeholder="المكان"><input id="fN" placeholder="ملاحظة"><div class="r2"><button type="submit" class="addb">حفظ</button><button type="button" id="fX" class="addb ghost">إلغاء</button></div></form><div id="sent"></div></section>
 <section class="card" id="mk"><h2>الأسواق</h2><div id="markets" class="grid"></div><div class="upd" id="mkU"></div></section>
 <section class="card" id="stk"><h2>أسهمي</h2><ul id="stocks" class="list q"></ul><div class="upd" id="stkU"></div></section>
@@ -36,4 +37,4 @@
 </section>
 <footer>الرجيلي ✦</footer>
 <script src="config.js"></script><script src="app.js"></script><script src="v2.js"></script><script>document.getElementById('askBtn').onclick=function(){var t=document.getElementById('askText').value.trim();if(!t)return;location.href='https://wa.me/966590900178?text='+encodeURIComponent('طلب للرجيلي (صفحتي): '+t);};</script>
-</body></html>
+<script src="note.js"></script></body></html>
