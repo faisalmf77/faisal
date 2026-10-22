@@ -1,0 +1,114 @@
+{
+ "nassr": {
+  "last": {
+   "date": "2026-10-20T18:00Z",
+   "name": "NEOM @ NSR",
+   "home": "Al Nassr",
+   "away": "Neom SC",
+   "hs": "1",
+   "as": "0",
+   "state": "post",
+   "detail": "FT"
+  },
+  "next": {
+   "date": "2026-10-23T13:30Z",
+   "name": "NSR @ ALF",
+   "home": "Al Faisaly",
+   "away": "Al Nassr",
+   "hs": {},
+   "as": {},
+   "state": "pre",
+   "detail": "10/23 - 9:30 AM EDT"
+  },
+  "pos": {
+   "team": "Al Nassr",
+   "gamesPlayed": "9",
+   "points": "22",
+   "rank": "3"
+  }
+ },
+ "ksaTop": [
+  {
+   "team": "Al Qadsiah",
+   "gamesPlayed": "10",
+   "points": "25",
+   "rank": "1"
+  },
+  {
+   "team": "Al Hilal",
+   "gamesPlayed": "9",
+   "points": "24",
+   "rank": "2"
+  },
+  {
+   "team": "Al Nassr",
+   "gamesPlayed": "9",
+   "points": "22",
+   "rank": "3"
+  },
+  {
+   "team": "Al Ittihad",
+   "gamesPlayed": "9",
+   "points": "20",
+   "rank": "4"
+  },
+  {
+   "team": "Al Ahli",
+   "gamesPlayed": "9",
+   "points": "18",
+   "rank": "5"
+  }
+ ],
+ "pl": [
+  {
+   "date": "2026-10-23T19:00Z",
+   "name": "NFO @ IPS",
+   "home": "Ipswich Town",
+   "away": "Nottingham Forest",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  }
+ ],
+ "plTop": [
+  {
+   "team": "Manchester City",
+   "gamesPlayed": "7",
+   "points": "21",
+   "rank": "1"
+  },
+  {
+   "team": "Arsenal",
+   "gamesPlayed": "7",
+   "points": "18",
+   "rank": "2"
+  },
+  {
+   "team": "Brighton & Hove Albion",
+   "gamesPlayed": "7",
+   "points": "16",
+   "rank": "3"
+  },
+  {
+   "team": "Chelsea",
+   "gamesPlayed": "7",
+   "points": "13",
+   "rank": "4"
+  },
+  {
+   "team": "Liverpool",
+   "gamesPlayed": "7",
+   "points": "12",
+   "rank": "5"
+  },
+  {
+   "team": "Brentford",
+   "gamesPlayed": "7",
+   "points": "10",
+   "rank": "6"
+  }
+ ],
+ "ok": true,
+ "updated": "2026-10-22 22:56"
+}

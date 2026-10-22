@@ -1,0 +1,96 @@
+{
+ "items": [
+  {
+   "sym": "ASTI",
+   "name": "Ascent Solar Technologies, Inc",
+   "price": 1.78,
+   "chg": -3.78,
+   "cur": "USD",
+   "time": "10-22 22:55",
+   "label": "Ascent Solar Technologies, Inc"
+  },
+  {
+   "sym": "OLB",
+   "name": "The OLB Group, Inc.",
+   "price": 0.3041,
+   "chg": -10.11,
+   "cur": "USD",
+   "time": "10-22 22:55",
+   "label": "The OLB Group, Inc."
+  },
+  {
+   "sym": "DVLT",
+   "name": "Datavault AI Inc.",
+   "price": 0.1329,
+   "chg": -5.07,
+   "cur": "USD",
+   "time": "10-22 22:55",
+   "label": "Datavault AI Inc."
+  },
+  {
+   "sym": "FIG",
+   "name": "Figma, Inc.",
+   "price": 23.985,
+   "chg": 4.37,
+   "cur": "USD",
+   "time": "10-22 22:55",
+   "label": "Figma, Inc."
+  },
+  {
+   "sym": "BZ=F",
+   "name": "Brent Crude Oil Last Day Financ",
+   "price": 113.13,
+   "chg": 3.96,
+   "cur": "USD",
+   "time": "10-22 22:46",
+   "label": "برنت"
+  },
+  {
+   "sym": "2222.SR",
+   "name": "Saudi Arabian Oil Co.",
+   "price": 25.4,
+   "chg": -0.7,
+   "cur": "SAR",
+   "time": "10-22 15:19",
+   "label": "أرامكو"
+  },
+  {
+   "sym": "SOUN",
+   "name": "SoundHound AI, Inc.",
+   "price": 4.51,
+   "chg": -2.17,
+   "cur": "USD",
+   "time": "10-22 22:55",
+   "label": "SoundHound AI, Inc."
+  },
+  {
+   "sym": "^TASI.SR",
+   "name": "Tadawul All Shares Index",
+   "price": 9695.86,
+   "chg": -2.32,
+   "cur": "SAR",
+   "time": "10-22 15:19",
+   "label": "تاسي"
+  },
+  {
+   "sym": "1120.SR",
+   "name": "Al Rajhi Bank",
+   "price": 59.8,
+   "chg": -0.66,
+   "cur": "SAR",
+   "time": "10-22 15:18",
+   "label": "الراجحي"
+  },
+  {
+   "sym": "ARKK",
+   "name": "ARK Innovation ETF",
+   "price": 81.93,
+   "chg": -4.09,
+   "cur": "USD",
+   "time": "10-22 22:55",
+   "label": "ARK Innovation ETF"
+  }
+ ],
+ "ok": true,
+ "updated": "2026-10-22 22:56"
+}
