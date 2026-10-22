@@ -1,0 +1,42 @@
+/* shared styles for the French lessons section (#french). Theme chosen by class fr-f (Faisal: navy+gold) / fr-n (Nora: baby blue) */
+#french{--a:#d4af37;--on:#0a1628;--bg2:#0d1a30;--ln:#1f3358;--tx:#e8ecf3;--mt:#8fa0bd;--ok:#3ecf8e;--no:#ff6b6b;--pr:#f0d77a}
+#french.fr-n{--a:#0b4f8a;--on:#fff;--bg2:#f3f9ff;--ln:#cfe4f7;--tx:#3b6284;--mt:#7d9bb5;--ok:#2e9e6b;--no:#d9534f;--pr:#0b78c4}
+#french .fr-stats{display:flex;gap:8px;flex-wrap:wrap;margin:2px 0 8px}
+#french .fr-chip{background:var(--bg2);border:1px solid var(--ln);border-radius:14px;padding:4px 10px;font-size:13px;color:var(--tx)}
+#french .fr-bar{height:6px;border-radius:6px;background:var(--ln);overflow:hidden;margin-bottom:10px}
+#french .fr-bar i{display:block;height:100%;background:var(--a);border-radius:6px}
+#french .fr-nav{display:flex;gap:6px;margin-bottom:10px}
+#french .fr-nav button{flex:1;padding:9px 4px;border-radius:12px;border:1px solid var(--a);background:transparent;color:var(--a);font-family:inherit;font-size:13px;cursor:pointer}
+#french .fr-nav button.fr-today{background:var(--a);color:var(--on);font-weight:700}
+#french .fr-nav button:disabled{opacity:.35}
+#french .fr-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 6px}
+#french .fr-no{font-size:12px;color:var(--mt)}
+#french .fr-badge{font-size:11px;padding:2px 8px;border-radius:10px;background:var(--a);color:var(--on);font-weight:700}
+#french .fr-badge.ok{background:var(--ok);color:#fff}
+#french .fr-title{font-size:18px;font-weight:800;color:var(--a);margin:0 0 4px;width:100%}
+#french h3{font-size:14px;color:var(--mt);margin:14px 0 6px}
+#french .fr-hint{font-size:11px;color:var(--mt);margin:0 0 6px;line-height:1.7}
+#french .fr-it{display:flex;align-items:center;gap:10px;background:var(--bg2);border:1px solid var(--ln);border-radius:14px;padding:9px 12px;margin-bottom:7px}
+#french .fr-tx{flex:1;min-width:0}
+#french .fr-f{display:block;direction:ltr;text-align:right;font-size:18px;font-weight:700;color:var(--tx);line-height:1.5;font-family:-apple-system,system-ui,'Segoe UI',sans-serif;unicode-bidi:isolate}
+#french .fr-p{display:block;font-size:14px;color:var(--pr);margin-top:1px}
+#french .fr-m{display:block;font-size:13px;color:var(--mt);margin-top:1px;line-height:1.7}
+#french .fr-sp{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--a);background:transparent;color:var(--a);font-size:18px;cursor:pointer;display:grid;place-items:center;padding:0}
+#french .fr-sp:active,#french .fr-sp.on{background:var(--a);color:var(--on)}
+#french.fr-nosp .fr-sp{display:none}
+#french .fr-dl{background:var(--bg2);border:1px solid var(--ln);border-radius:14px;padding:10px 12px}
+#french .fr-dl .fr-lb{font-size:12px;font-weight:700;color:var(--a);margin-bottom:4px}
+#french .fr-dl .fr-it{background:transparent;border:0;padding:0 0 8px;margin:0;border-bottom:1px dashed var(--ln);margin-bottom:8px}
+#french .fr-q{background:var(--bg2);border:1px solid var(--ln);border-radius:14px;padding:10px 12px;margin-bottom:8px}
+#french .fr-qt{font-size:14px;font-weight:700;color:var(--tx);margin-bottom:8px;line-height:1.7}
+#french .fr-o{display:block;width:100%;text-align:right;margin-bottom:6px;padding:9px 12px;border-radius:12px;border:1px solid var(--ln);background:transparent;color:var(--tx);font-family:inherit;font-size:14px;cursor:pointer}
+#french .fr-o.fo{direction:ltr;text-align:right;font-family:-apple-system,system-ui,'Segoe UI',sans-serif;font-size:15px}
+#french .fr-o.good{border-color:var(--ok);background:rgba(62,207,142,.15);font-weight:700}
+#french .fr-o.bad{border-color:var(--no);background:rgba(255,107,107,.13)}
+#french .fr-fb{font-size:13px;line-height:1.7;margin-top:2px;color:var(--tx)}
+#french .fr-score{text-align:center;padding:10px;border-radius:14px;border:1px solid var(--a);color:var(--a);font-weight:700;margin-top:4px}
+#french .fr-done{display:block;width:100%;margin-top:14px;padding:12px;border:0;border-radius:14px;background:var(--a);color:var(--on);font-weight:800;font-size:16px;font-family:inherit;cursor:pointer}
+#french .fr-done.dn{background:var(--ok);color:#fff}
+#french .fr-msg{text-align:center;margin-top:8px;font-size:14px;color:var(--a);min-height:20px}
+#french .fr-foot{font-size:11px;color:var(--mt);margin-top:10px;text-align:center;line-height:1.7}
+#french .fr-dl .fr-it:last-child{border-bottom:0;padding-bottom:0;margin-bottom:0}
