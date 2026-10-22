@@ -1,5 +1,5 @@
 // faisal-hq service worker. Network-first, never trusts the HTTP cache. Cache is offline fallback only.
-const V='20261023-0107',C='faisal-hq-'+V,ASSETS=['./','index.html','config.js','style.css','app.js','v2.js','note.js','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png'];
+const V='20261023-014317',C='faisal-hq-'+V,ASSETS=['./','index.html','config.js','style.css','app.js','v2.js','note.js','fun.js','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png'];
 self.addEventListener('install',e=>{self.skipWaiting();
  e.waitUntil(caches.open(C).then(c=>Promise.all(ASSETS.map(u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?c.put(u,r):0).catch(()=>0)))))});
 self.addEventListener('activate',e=>{e.waitUntil((async()=>{

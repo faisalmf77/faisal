@@ -29,3 +29,10 @@ footer{text-align:center;color:var(--gold);opacity:.6;margin-top:16px;font-size:
 .dn-ta{width:100%;box-sizing:border-box;border-radius:10px;padding:10px;font:inherit;border:1px solid #d4af37;background:rgba(255,255,255,.05);color:inherit}
 .dn-btn{margin-top:8px;width:100%;padding:10px;border:0;border-radius:10px;background:#d4af37;color:#0a1628;font:inherit;font-weight:700}
 .dn-hist{margin-top:10px;font-size:.9em}.dn-hist summary{color:#d4af37;cursor:pointer}.dn-hist li{margin:8px 0;list-style:none}.dn-hist span{opacity:.6;font-size:.85em}
+/* ألغاز ونكت */
+#fun h3{margin:14px 0 6px;font-size:14px;color:var(--gold)}.fn-list{list-style:none;margin:0;padding:0;display:block}
+.fn-item{display:block;background:#0d1a30;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.fn-t{line-height:1.9;font-size:15px}.fn-src{margin-top:6px;font-size:11px;color:var(--mute)}.fn-src a{color:var(--mute);text-decoration:none;border-bottom:1px dotted var(--mute)}
+.fn-btn{margin-top:8px;padding:8px 14px;border-radius:12px;border:1px solid var(--gold);background:transparent;color:var(--gold);font-family:inherit;font-size:14px;cursor:pointer}
+.fn-btn[aria-expanded="true"]{background:var(--gold);color:#0a1628;font-weight:700}
+.fn-ans{margin-top:8px;padding:8px 10px;border-radius:10px;background:rgba(212,175,55,.12);color:var(--ink);font-weight:700}.fn-ans[hidden]{display:none}
