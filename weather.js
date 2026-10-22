@@ -12,7 +12,7 @@ function cd(d){var t=today(),f=d.forecast_date&&dayN(d.forecast_date)-t,w=d.wedd
 function big(src){var o=document.createElement('div');o.className='wx-ov';
  o.innerHTML='<button type="button" class="wx-x" aria-label="إغلاق">✕</button><img src="'+esc(src)+'" alt="">';
  o.onclick=function(e){if(e.target.tagName!=='IMG')document.body.removeChild(o)};document.body.appendChild(o)}
-var DEF={week:'',summary:[],images:{},updated:'',forecast_date:'2027-03-11',wedding_date:'2027-03-25',source:'المصدر: NASA POWER',disclaimer:'نمط سابق وليس توقعًا لعام 2027'};
+var DEF={week:'',summary:[],images:{},updated:'',forecast_date:'2027-03-11',wedding_date:'2027-03-24',pending_note:'التقرير الجديد ليوم 24 مارس يوصل يوم الاثنين',source:'المصدر: NASA POWER',disclaimer:'نمط سابق وليس توقعًا لعام 2027'};
 function render(d){d=Object.assign({},DEF,d||{});var v=encodeURIComponent(d.updated||d.week||'');
  var im=d.images||{},h='<h2>🌤️ طقس ليلة الزفاف · الدرعية</h2>';
  if(d.week)h+='<div class="wx-week">'+esc(d.week)+'</div>';
@@ -20,6 +20,7 @@ function render(d){d=Object.assign({},DEF,d||{});var v=encodeURIComponent(d.upda
  h+='<div class="wx-cds">'+cd(d)+'</div>';
  var pics=['a','b'].filter(function(k){return im[k]});
  if(pics.length){h+='<div class="wx-imgs">'+pics.map(function(k){var s=im[k]+'?v='+v;return '<a href="'+esc(s)+'" class="wx-im" data-s="'+esc(s)+'"><img loading="lazy" src="'+esc(s)+'" alt="'+(k==='a'?'الشبكة الملونة':'بطاقة الملخص')+'"><span>اضغط لفتح الصورة كاملة</span></a>'}).join('')+'</div>'}
+ if(!pics.length&&d.pending_note)h+='<div class="wx-pend">📩 '+esc(d.pending_note)+'</div>';
  h+='<div class="wx-src">'+esc(d.source)+' · '+esc(d.disclaimer)+'</div>';
  if(d.updated)h+='<div class="upd wx-upd">آخر تحديث: '+esc(d.updated)+'</div>';
  box.innerHTML=h;
