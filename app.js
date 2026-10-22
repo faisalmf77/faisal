@@ -13,7 +13,7 @@ let APPTS=[],PT=null;
 function tick(){const n=nowR(),d=new Date();
  $('clock').textContent=d.toLocaleTimeString('ar-SA-u-nu-latn',{timeZone:TZ,hour:'numeric',minute:'2-digit'});
  $('date').textContent=d.toLocaleDateString('ar-SA-u-ca-islamic-umalqura',{timeZone:TZ,weekday:'long',day:'numeric',month:'long',year:'numeric'})+' • '+d.toLocaleDateString('ar-SA-u-ca-gregory-nu-latn',{timeZone:TZ,day:'numeric',month:'long'});
- const h=n.min/60;$('greet').textContent=(h<12?'صباح الخير':'مساء الخير')+' يا أبو محمد';
+ const h=n.min/60;$('greet').textContent=(h<12?'صباح الخير':'مساء الخير')+' يا أبو خالد';
  if(PT){const nx=Object.keys(PRAY).map(k=>({k,m:toMin(PT[k])})).find(p=>p.m*60>n.min*60+n.sec)||{k:'Fajr',m:toMin(PT.Fajr)+1440};
   const s=nx.m*60-(n.min*60+n.sec);$('pName').textContent=PRAY[nx.k];$('pCount').textContent='بعد '+[s/3600|0,(s%3600)/60|0,s%60].map(x=>String(x).padStart(2,'0')).join(':')}}
 function sched(){const n=nowR(),AL=allAp(),it=AL.filter(a=>a.date===n.date);

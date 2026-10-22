@@ -3,7 +3,7 @@ $('addBtn').onclick=()=>{F.hidden=!F.hidden;$('addBtn').hidden=!F.hidden;if(!F.h
 $('fX').onclick=()=>{F.hidden=true;$('addBtn').hidden=false};
 F.onsubmit=e=>{e.preventDefault();const a={lid:Date.now().toString(36),title:$('fT').value.trim(),date:$('fD').value,start:$('fS').value,place:$('fP').value.trim(),note:$('fN').value.trim()};
  if(!a.title)return;const L=locAp();L.push(a);localStorage.setItem(LK,JSON.stringify(L));F.reset();F.hidden=true;$('addBtn').hidden=false;sched();
- const t='موعد جديد لأبو محمد: '+a.title+' • '+a.date+' • '+a.start+(a.place?' • '+a.place:'')+(a.note?' • '+a.note:'');
+ const t='موعد جديد لأبو خالد: '+a.title+' • '+a.date+' • '+a.start+(a.place?' • '+a.place:'')+(a.note?' • '+a.note:'');
  $('sent').innerHTML=`<div class="note" style="margin-top:8px">✅ انحفظ في جوالك</div><a class="cta" href="https://wa.me/${WA}?text=${encodeURIComponent(t)}">📲 أرسله للرجيلي</a>`};
 $('sched').addEventListener('click',e=>{const id=e.target.dataset&&e.target.dataset.lid;if(!id)return;if(!confirm('أحذف الموعد؟'))return;localStorage.setItem(LK,JSON.stringify(locAp().filter(x=>x.lid!==id)));sched()});
 fetch('data/honeymoon.json').then(r=>r.json()).then(h=>{let cur=0;$('hmNote').textContent=h.note;
