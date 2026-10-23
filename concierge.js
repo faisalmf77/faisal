@@ -203,6 +203,7 @@ function validate(){var c=cur,bad=[];
  e.hidden=true;return true}
 function send(){if(!validate())return;var t=build(),H=hist();
  H.unshift({ref:refId,ico:cur.ico,title:cur.title,sum:summary(),text:t,st:'new',when:nowStr()});lsSet('hist',H.slice(0,50));
+ window.NoteSync&&NoteSync.req(t,'concierge');
  copy(t).then(function(ok){view='home';render();toast(ok?'✅ انحفظ الطلب ونُسخ، وينفتح واتساب الحين':'✅ انحفظ الطلب، وينفتح واتساب الحين');
   setTimeout(function(){location.href=waUrl(t)},350)})}
 // ---------------- events
