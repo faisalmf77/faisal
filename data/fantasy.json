@@ -1,0 +1,478 @@
+{
+ "next": {
+  "id": 8,
+  "name": "Gameweek 8",
+  "deadline": "2026-10-23T17:30:00Z"
+ },
+ "events": [
+  {
+   "id": 8,
+   "name": "Gameweek 8",
+   "deadline": "2026-10-23T17:30:00Z"
+  },
+  {
+   "id": 9,
+   "name": "Gameweek 9",
+   "deadline": "2026-10-31T11:00:00Z"
+  },
+  {
+   "id": 10,
+   "name": "Gameweek 10",
+   "deadline": "2026-11-06T18:30:00Z"
+  },
+  {
+   "id": 11,
+   "name": "Gameweek 11",
+   "deadline": "2026-11-21T11:00:00Z"
+  },
+  {
+   "id": 12,
+   "name": "Gameweek 12",
+   "deadline": "2026-11-27T18:30:00Z"
+  },
+  {
+   "id": 13,
+   "name": "Gameweek 13",
+   "deadline": "2026-12-01T18:30:00Z"
+  },
+  {
+   "id": 14,
+   "name": "Gameweek 14",
+   "deadline": "2026-12-05T11:00:00Z"
+  },
+  {
+   "id": 15,
+   "name": "Gameweek 15",
+   "deadline": "2026-12-12T13:30:00Z"
+  },
+  {
+   "id": 16,
+   "name": "Gameweek 16",
+   "deadline": "2026-12-19T11:00:00Z"
+  },
+  {
+   "id": 17,
+   "name": "Gameweek 17",
+   "deadline": "2026-12-26T11:00:00Z"
+  },
+  {
+   "id": 18,
+   "name": "Gameweek 18",
+   "deadline": "2026-12-29T18:00:00Z"
+  },
+  {
+   "id": 19,
+   "name": "Gameweek 19",
+   "deadline": "2027-01-01T18:30:00Z"
+  }
+ ],
+ "players": {
+  "1": {
+   "web": "Raya",
+   "club": "ARS",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 6.1,
+   "form": "6.0",
+   "sel": "45.2",
+   "pts": 42,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "EVE",
+     "home": true,
+     "kickoff": "2026-10-24T14:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 9,
+     "opp": "LIV",
+     "home": false,
+     "kickoff": "2026-11-01T16:30:00Z",
+     "diff": 4
+    }
+   ]
+  },
+  "8": {
+   "web": "Calafiori",
+   "club": "ARS",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 6.0,
+   "form": "7.5",
+   "sel": "54.6",
+   "pts": 44,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "EVE",
+     "home": true,
+     "kickoff": "2026-10-24T14:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 9,
+     "opp": "LIV",
+     "home": false,
+     "kickoff": "2026-11-01T16:30:00Z",
+     "diff": 4
+    }
+   ]
+  },
+  "391": {
+   "web": "Gvardiol",
+   "club": "MCI",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 5.8,
+   "form": "2.0",
+   "sel": "27.7",
+   "pts": 41,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "AVL",
+     "home": false,
+     "kickoff": "2026-10-24T11:30:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 9,
+     "opp": "BHA",
+     "home": true,
+     "kickoff": "2026-10-31T15:00:00Z",
+     "diff": 3
+    }
+   ]
+  },
+  "115": {
+   "web": "De Cuyper",
+   "club": "BHA",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 5.3,
+   "form": "10.5",
+   "sel": "41.8",
+   "pts": 59,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "LIV",
+     "home": false,
+     "kickoff": "2026-10-25T14:00:00Z",
+     "diff": 4
+    },
+    {
+     "gw": 9,
+     "opp": "MCI",
+     "home": false,
+     "kickoff": "2026-10-31T15:00:00Z",
+     "diff": 5
+    }
+   ]
+  },
+  "473": {
+   "web": "Aina",
+   "club": "NFO",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 4.3,
+   "form": "0.0",
+   "sel": "1.7",
+   "pts": 8,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "IPS",
+     "home": false,
+     "kickoff": "2026-10-23T19:00:00Z",
+     "diff": 2
+    },
+    {
+     "gw": 9,
+     "opp": "BRE",
+     "home": false,
+     "kickoff": "2026-10-31T15:00:00Z",
+     "diff": 3
+    }
+   ]
+  },
+  "426": {
+   "web": "B.Fernandes",
+   "club": "MUN",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 11.8,
+   "form": "1.0",
+   "sel": "27.1",
+   "pts": 33,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "BOU",
+     "home": true,
+     "kickoff": "2026-10-25T14:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 9,
+     "opp": "CHE",
+     "home": false,
+     "kickoff": "2026-10-31T12:30:00Z",
+     "diff": 4
+    }
+   ]
+  },
+  "427": {
+   "web": "Mbeumo",
+   "club": "MUN",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 7.9,
+   "form": "8.0",
+   "sel": "21.4",
+   "pts": 41,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "BOU",
+     "home": true,
+     "kickoff": "2026-10-25T14:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 9,
+     "opp": "CHE",
+     "home": false,
+     "kickoff": "2026-10-31T12:30:00Z",
+     "diff": 4
+    }
+   ]
+  },
+  "40": {
+   "web": "Rogers",
+   "club": "CHE",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 8.0,
+   "form": "5.5",
+   "sel": "49.2",
+   "pts": 40,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "TOT",
+     "home": true,
+     "kickoff": "2026-10-24T16:30:00Z",
+     "diff": 2
+    },
+    {
+     "gw": 9,
+     "opp": "MUN",
+     "home": true,
+     "kickoff": "2026-10-31T12:30:00Z",
+     "diff": 4
+    }
+   ]
+  },
+  "124": {
+   "web": "Groß",
+   "club": "BHA",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 6.2,
+   "form": "5.5",
+   "sel": "46.0",
+   "pts": 58,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "LIV",
+     "home": false,
+     "kickoff": "2026-10-25T14:00:00Z",
+     "diff": 4
+    },
+    {
+     "gw": 9,
+     "opp": "MCI",
+     "home": false,
+     "kickoff": "2026-10-31T15:00:00Z",
+     "diff": 5
+    }
+   ]
+  },
+  "411": {
+   "web": "Haaland",
+   "club": "MCI",
+   "status": "a",
+   "chance": 100,
+   "news": "",
+   "price": 15.7,
+   "form": "9.5",
+   "sel": "77.3",
+   "pts": 58,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "AVL",
+     "home": false,
+     "kickoff": "2026-10-24T11:30:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 9,
+     "opp": "BHA",
+     "home": true,
+     "kickoff": "2026-10-31T15:00:00Z",
+     "diff": 3
+    }
+   ]
+  },
+  "165": {
+   "web": "João Pedro",
+   "club": "CHE",
+   "status": "a",
+   "chance": 100,
+   "news": "",
+   "price": 7.9,
+   "form": "7.0",
+   "sel": "73.5",
+   "pts": 47,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "TOT",
+     "home": true,
+     "kickoff": "2026-10-24T16:30:00Z",
+     "diff": 2
+    },
+    {
+     "gw": 9,
+     "opp": "MUN",
+     "home": true,
+     "kickoff": "2026-10-31T12:30:00Z",
+     "diff": 4
+    }
+   ]
+  },
+  "497": {
+   "web": "Dubravka",
+   "club": "TOT",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 4.0,
+   "form": "0.0",
+   "sel": "16.4",
+   "pts": 0,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "CHE",
+     "home": false,
+     "kickoff": "2026-10-24T16:30:00Z",
+     "diff": 4
+    },
+    {
+     "gw": 9,
+     "opp": "CRY",
+     "home": true,
+     "kickoff": "2026-10-31T17:30:00Z",
+     "diff": 2
+    }
+   ]
+  },
+  "259": {
+   "web": "Diop",
+   "club": "IPS",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 3.9,
+   "form": "2.5",
+   "sel": "10.9",
+   "pts": 17,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "NFO",
+     "home": true,
+     "kickoff": "2026-10-23T19:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 9,
+     "opp": "HUL",
+     "home": false,
+     "kickoff": "2026-10-31T15:00:00Z",
+     "diff": 2
+    }
+   ]
+  },
+  "212": {
+   "web": "Hughes",
+   "club": "CRY",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 4.3,
+   "form": "0.5",
+   "sel": "6.1",
+   "pts": 3,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "NEW",
+     "home": true,
+     "kickoff": "2026-10-25T14:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 9,
+     "opp": "TOT",
+     "home": false,
+     "kickoff": "2026-10-31T17:30:00Z",
+     "diff": 3
+    }
+   ]
+  },
+  "272": {
+   "web": "Kusi-Asare",
+   "club": "FUL",
+   "status": "a",
+   "chance": null,
+   "news": "",
+   "price": 4.4,
+   "form": "0.0",
+   "sel": "4.9",
+   "pts": 0,
+   "fx": [
+    {
+     "gw": 8,
+     "opp": "COV",
+     "home": false,
+     "kickoff": "2026-10-24T14:00:00Z",
+     "diff": 2
+    },
+    {
+     "gw": 9,
+     "opp": "AVL",
+     "home": false,
+     "kickoff": "2026-10-31T20:00:00Z",
+     "diff": 3
+    }
+   ]
+  }
+ },
+ "ok": true,
+ "updated": "2026-10-23 17:48"
+}

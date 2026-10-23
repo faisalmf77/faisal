@@ -1,0 +1,33 @@
+{
+ "_help": "عدّل هذا الملف كل أسبوع. id = رقم اللاعب في الفانتازي (element id). club = اختصار ناديه. opp/home = خصمه القادم (احتياطي لو ما توفرت بيانات الجدول الحية). captain و vice = id اللاعب. المصدر: شاشة Pick Team.",
+ "gw": 8,
+ "formation": "4-4-2",
+ "captain": 411,
+ "vice": 165,
+ "gk":  [{"id":1,  "name":"Raya",       "club":"ARS","opp":"EVE","home":true}],
+ "def": [{"id":8,  "name":"Calafiori",  "club":"ARS","opp":"EVE","home":true},
+         {"id":391,"name":"Gvardiol",   "club":"MCI","opp":"AVL","home":false},
+         {"id":115,"name":"De Cuyper",  "club":"BHA","opp":"LIV","home":false},
+         {"id":473,"name":"Aina",       "club":"NFO","opp":"IPS","home":false}],
+ "mid": [{"id":426,"name":"B.Fernandes","club":"MUN","opp":"BOU","home":true},
+         {"id":427,"name":"Mbeumo",     "club":"MUN","opp":"BOU","home":true},
+         {"id":40, "name":"Rogers",     "club":"CHE","opp":"TOT","home":true},
+         {"id":124,"name":"Groß",       "club":"BHA","opp":"LIV","home":false}],
+ "fwd": [{"id":411,"name":"Haaland",    "club":"MCI","opp":"AVL","home":false},
+         {"id":165,"name":"João Pedro", "club":"CHE","opp":"TOT","home":true}],
+ "bench": [{"id":497,"name":"Dubravka",  "pos":"GKP","club":"TOT","opp":"CHE","home":false},
+           {"id":259,"name":"Diop",      "pos":"DEF","club":"IPS","opp":"NFO","home":true},
+           {"id":212,"name":"Hughes",    "pos":"MID","club":"CRY","opp":"NEW","home":true},
+           {"id":272,"name":"Kusi-Asare","pos":"FWD","club":"FUL","opp":"COV","home":false}],
+ "advice": {
+  "title": "رأي الرجيلي · الجولة 8",
+  "points": [
+   "👑 الكابتن: خله هاالاند، هو الأعلى بالتوقعات. البديل المختلف: مبيومو.",
+   "🚫 لا تستخدم أي ورقة هالأسبوع.",
+   "🛡️ أبقِ جفاردیول.",
+   "🪑 تأكد من دقائق الدكة قبل الديدلاين، وخل أول احتياطي لاعب مضمون اللعب.",
+   "🔁 لا تحويلات ولا خصم نقاط إلا لو لاعب غايب مؤكد."
+  ],
+  "sources": [["BBC","https://www.bbc.co.uk/sport/football/articles/cq1m43jee9z5o"],["FPL Dave","https://www.fpldave.com/gameweek/8/captain-picks"]]
+ }
+}

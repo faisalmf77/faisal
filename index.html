@@ -5,8 +5,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="أبو خالد">
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="french.css"><script>
-window.APP_VERSION='20261023-053457';
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="french.css"><link rel="stylesheet" href="fantasy.css"><script>
+window.APP_VERSION='20261023-175658';
 (function(){
 var V=window.APP_VERSION,ss=window.sessionStorage,sw=navigator.serviceWorker;
 function reset(){var p=[];
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 <!--CG:CSS--><link rel="stylesheet" href="concierge.css"><!--/CG:CSS--></head><body>
 <header class="hero"><div class="title">يوم أبو خالد</div><div id="greet" class="greet"></div>
 <div class="clock" id="clock">--:--</div><div class="date" id="date"></div></header>
-<nav class="tabs"><a href="#dailyNote">💌 رسالة اليوم</a><a href="#sched">جدولي</a><!--CG:NAV--><a href="#concierge">🛎️ الكونسيرج</a><!--/CG:NAV--><a href="#mk">الأسواق</a><a href="#stk">أسهمي</a><a href="#econ">اقتصاد</a><a href="#spa">واس</a><a href="#uqn">أم القرى</a><a href="#re">العقار</a><a href="#fb">الكورة</a><a href="#fun">😄 نكت</a><a href="#french">🇫🇷 فرنسي</a><a href="#wedWx">طقس الزفاف</a><a href="#adh">الأذكار</a><a href="#honeymoon">شهر العسل</a><a href="#quickLinks">روابط</a><a href="#ask">طلبات</a></nav>
+<nav class="tabs"><a href="#dailyNote">💌 رسالة اليوم</a><a href="#sched">جدولي</a><!--CG:NAV--><a href="#concierge">🛎️ الكونسيرج</a><!--/CG:NAV--><a href="#mk">الأسواق</a><a href="#stk">أسهمي</a><a href="#econ">اقتصاد</a><a href="#spa">واس</a><a href="#uqn">أم القرى</a><a href="#re">العقار</a><a href="#fb">الكورة</a><a href="#fpl">⚽ فانتازي</a><a href="#fun">😄 نكت</a><a href="#french">🇫🇷 فرنسي</a><a href="#wedWx">طقس الزفاف</a><a href="#adh">الأذكار</a><a href="#honeymoon">شهر العسل</a><a href="#quickLinks">روابط</a><a href="#ask">طلبات</a></nav>
 <section class="row"><div class="card mini"><div class="lbl">طقس الرياض</div><div class="big" id="wTemp">—</div><div class="sub" id="wDesc"></div></div>
 <div class="card mini"><div class="lbl">الصلاة القادمة</div><div class="big" id="pName">—</div><div class="sub" id="pCount"></div></div></section>
 <section class="card" id="dailyNote"></section>
@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 <section class="card" id="uqn"><h2>جريدة أم القرى</h2><ul id="uqnL" class="list news"></ul><div class="upd" id="uqnU"></div></section>
 <section class="card" id="re"><h2>البورصة العقارية — الرياض</h2><div id="reS" class="note"></div><ul id="reL" class="list news"></ul></section>
 <section class="card" id="fb"><h2>الكورة</h2><div id="nassr"></div><h3>الدوري الإنجليزي — اليوم</h3><ul id="pl" class="list"></ul><h3>صدارة البريميرليغ</h3><table id="plT" class="tbl"></table></section>
+<section class="card" id="fpl"><h2>⚽ فانتازي · الدوري الإنجليزي</h2><div class="na">…</div></section>
 <section class="card" id="fun"><h2>😄 ألغاز ونكت</h2><div class="na">…</div></section>
 <section class="card" id="french"><h2>🇫🇷 دروس الفرنسي</h2><div class="na">…</div></section>
 <section class="card" id="wedWx"><h2>🌤️ طقس ليلة الزفاف · الدرعية</h2><div class="na">…</div></section>
@@ -65,4 +66,4 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 </section>
 <footer>الرجيلي ✦<div style="font:11px/1.8 -apple-system,system-ui,sans-serif;opacity:.85;margin-top:8px;direction:rtl"><span id="appVer"></span> · <button id="refreshBtn" type="button" style="font:inherit;color:inherit;background:none;border:1px solid currentColor;border-radius:12px;padding:3px 10px;cursor:pointer">🔄 تحديث الصفحة</button></div></footer>
 <script src="config.js"></script><script src="app.js"></script><script src="v2.js"></script>
-<script src="note-config.js"></script><script src="note.js"></script><script src="fun.js"></script><script src="weather.js"></script><script>window.FR_CFG={theme:'f',intro:'درس صغير كل يوم، تتعلمه أنت وست الكل مع بعض 🤝',foot:'تقدمك محفوظ في هذا الجهاز'};</script><script src="french.js"></script><!--CG:JS--><script>window.CG_CFG={"theme": "f", "bot": "الرجيلي", "prefix": "طلب للرجيلي (صفحتي): ", "title": "🛎️ الكونسيرج", "intro": "قل للرجيلي وش تبي: حجز أي شي، في أي مكان وأي وقت. اختر الخدمة، عبّي التفاصيل، ويوصل طلبك للرجيلي مباشرة من الصفحة، وتشوف حالته وردّه تحت.", "rule": "الرجيلي يجهّز الحجز لين خطوة الدفع بس، والدفع عليك أنت.", "payNote": "جهّزه لين خطوة الدفع فقط، وأنا أدفع بنفسي.", "send": "أرسل للرجيلي 🛎️", "me": "FAISAL MOHAMMED F ALMOAMMAR", "pax": [{"n": "FAISAL MOHAMMED F ALMOAMMAR", "l": "فيصل"}, {"n": "NORAH SULAIMAN A AL THUNAYYAN", "l": "نورة (ست الكل)"}]};</script><script src="concierge.js"></script><!--/CG:JS--></body></html>
+<script src="note-config.js"></script><script src="note.js"></script><script src="fun.js"></script><script src="weather.js"></script><script>window.FR_CFG={theme:'f',intro:'درس صغير كل يوم، تتعلمه أنت وست الكل مع بعض 🤝',foot:'تقدمك محفوظ في هذا الجهاز'};</script><script src="french.js"></script><script src="fantasy.js"></script><!--CG:JS--><script>window.CG_CFG={"theme": "f", "bot": "الرجيلي", "prefix": "طلب للرجيلي (صفحتي): ", "title": "🛎️ الكونسيرج", "intro": "قل للرجيلي وش تبي: حجز أي شي، في أي مكان وأي وقت. اختر الخدمة، عبّي التفاصيل، ويوصل طلبك للرجيلي مباشرة من الصفحة، وتشوف حالته وردّه تحت.", "rule": "الرجيلي يجهّز الحجز لين خطوة الدفع بس، والدفع عليك أنت.", "payNote": "جهّزه لين خطوة الدفع فقط، وأنا أدفع بنفسي.", "send": "أرسل للرجيلي 🛎️", "me": "FAISAL MOHAMMED F ALMOAMMAR", "pax": [{"n": "FAISAL MOHAMMED F ALMOAMMAR", "l": "فيصل"}, {"n": "NORAH SULAIMAN A AL THUNAYYAN", "l": "نورة (ست الكل)"}]};</script><script src="concierge.js"></script><!--/CG:JS--></body></html>
