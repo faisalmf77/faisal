@@ -1,5 +1,5 @@
 {
- "srem": "srem.moj.gov.sa متاح (لا توجد واجهة بيانات عامة مستخدمة بعد)",
+ "srem": "srem.moj.gov.sa غير متاح من الخادم",
  "link": "https://srem.moj.gov.sa/",
  "items": [
   {
@@ -40,5 +40,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-23 11:06"
+ "updated": "2026-10-23 12:02"
 }
