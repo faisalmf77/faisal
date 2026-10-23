@@ -1,4 +1,4 @@
-window.NOTE_CFG={me:'faisal',other:'nora',names:{faisal:'أبو خالد',nora:'ست الكل'},ph:'اكتب لها رسالة اليوم',btn:'💌 أرسلها لست الكل',empty:'ما وصلت رسالة اليوم من ست الكل للحين… أكيد جاية 💙'};
+window.NOTE_CFG={me:'faisal',botTo:'للرجيلي',botName:'الرجيلي',other:'nora',names:{faisal:'أبو خالد',nora:'ست الكل'},ph:'اكتب لها رسالة اليوم',btn:'💌 أرسلها لست الكل',empty:'ما وصلت رسالة اليوم من ست الكل للحين… أكيد جاية 💙'};
 (function(){
 var CFG=window.NOTE_CFG||{},SC=window.NOTE_SYNC||{},ME=CFG.me,OT=CFG.other,NM=CFG.names||{};
 var box=document.getElementById('dailyNote');if(!box)return;
@@ -8,7 +8,7 @@ var P='ns_'+ME+'_';
 function ld(k,d){try{var v=JSON.parse(localStorage.getItem(P+k));return v==null?d:v}catch(_){return d}}
 function sv(k,v){try{localStorage.setItem(P+k,JSON.stringify(v))}catch(_){}}
 var own=ld('own',[]),ownSeen=ld('seen',null),other=ld('other',{notes:[],seen:null}),dirtyOwn=ld('dirty',false),
-    reqs=ld('reqs',[]),reqRemote=ld('reqRemote',[]),dirtyReq=ld('dreq',false),seeds=[],lastErr=false;
+    reqs=ld('reqs',[]),reqRemote=ld('reqRemote',[]),dirtyReq=ld('dreq',false),reps=ld('reps',{}),seeds=[],lastErr=false;
 var tf=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Riyadh',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
 function stamp(ts){var o={};tf.formatToParts(new Date(ts)).forEach(function(p){o[p.type]=p.value});return {date:o.year+'-'+o.month+'-'+o.day,time:o.hour+':'+o.minute}}
 function uid(){return Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
@@ -40,12 +40,28 @@ function pollOther(){return api('GET','notes/'+OT).then(function(r){
 function markSeen(){if(document.visibilityState!=='visible')return;var l=latestOf(allNotes().filter(function(n){return n.from===OT&&String(n.id).indexOf('seed-')!==0}));
  if(!l||(ownSeen&&ownSeen.id===l.id))return;ownSeen={id:l.id,at:Date.now()};sv('seen',ownSeen);dirtyOwn=true;sv('dirty',true);flushOwn()}
 // ---- requests mirror (optional, to the assistant) ----
-function flushReq(){if(!dirtyReq)return Promise.resolve(true);
- var m=trim(merge(reqRemote,reqs),60);
- return api('POST','req/'+ME,{v:1,reqs:m},true).then(function(w){if(w.ok){reqRemote=m;reqs=m;dirtyReq=false;sv('reqs',reqs);sv('reqRemote',reqRemote);sv('dreq',false)}return w.ok})}
-function req(text,src){text=String(text||'').trim().slice(0,1500);if(!text)return;
- var now=Date.now(),last=reqs[reqs.length-1];if(last&&last.text===text&&now-last.ts<8000)return;
- var s=stamp(now);reqs.push({id:uid(),ts:now,date:s.date,time:s.time,text:text,src:src||'ask',from:ME});sv('reqs',reqs);dirtyReq=true;sv('dreq',true);flushReq()}
+var busyR=false,rv=0,rp=null,subs=[];
+function notify(){subs.forEach(function(f){try{f()}catch(_){}});try{drawAsk()}catch(_){}}
+function flushReq(){if(!dirtyReq)return Promise.resolve(true);if(busyR)return rp||Promise.resolve(false);
+ busyR=true;var cap=rv;
+ rp=api('GET','req/'+ME).then(function(g){
+  if(!(g.ok||g.status===404))return false;
+  var m=trim(merge((g.ok&&g.json&&g.json.reqs)||[],reqs),60);
+  return api('POST','req/'+ME,{v:1,reqs:m},true).then(function(w){
+   if(!w.ok)return false;reqRemote=m;reqs=m;sv('reqs',reqs);sv('reqRemote',reqRemote);if(rv===cap){dirtyReq=false;sv('dreq',false)}return true})})
+ .then(function(ok){busyR=false;notify();if(ok&&dirtyReq)return flushReq();return ok});
+ return rp}
+function req(text,src,meta){text=String(text||'').trim().slice(0,1500);if(!text)return null;
+ var now=Date.now(),last=reqs[reqs.length-1];if(last&&last.text===text&&now-last.ts<8000)return last.id;
+ var s=stamp(now),r={id:uid(),ts:now,date:s.date,time:s.time,text:text,src:src||'ask',from:ME};
+ if(meta)['title','ico','ref','sum'].forEach(function(k){if(meta[k])r[k]=String(meta[k]).slice(0,200)});
+ reqs.push(r);rv++;sv('reqs',reqs);dirtyReq=true;sv('dreq',true);notify();flushReq();return r.id}
+// status of one request: queue (not stored yet) / sent (stored) / ack / prog / done (set by the assistant via the rep/<me> doc)
+var RL={queue:'⏳ بانتظار الاتصال',sent:'✓ وصل',ack:'👀 تم الاستلام',prog:'⏳ قيد التنفيذ',done:'✅ تم'};
+function status(id){var r=reps[id];if(r&&RL[r.st])return {k:r.st,label:RL[r.st],text:typeof r.text==='string'?r.text:'',at:r.at||0};
+ var k=reqRemote.some(function(x){return x.id===id})?'sent':'queue';return {k:k,label:RL[k],text:'',at:0}}
+function pollReps(){if(!reqs.some(function(x){var r=reps[x.id];return !(r&&r.st==='done')}))return Promise.resolve();
+ return api('GET','rep/'+ME).then(function(r){if(r.ok&&r.json&&r.json.replies&&typeof r.json.replies==='object'){reps=r.json.replies;sv('reps',reps);notify()}})}
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="https://wa.me/"]');if(!a||a.id==='fab')return;
  var m=a.href.match(/[?&]text=([^&]+)/);if(!m)return;try{req(decodeURIComponent(m[1]),'link')}catch(_){}},true);
 // ---- rendering (textContent only) ----
@@ -96,9 +112,26 @@ function seedFrom(d){var list=((d&&d.history)||[]).concat(d&&d.text?[d]:[]);
  seeds=list.map(function(x,i){var s=side(x.from);if(!s||!x.text)return null;var ts=Date.parse((x.date||'1970-01-01')+'T00:00:00+03:00')||0;
   return {id:'seed-'+hash(s+'|'+(x.date||'')+'|'+x.text),ts:ts+i,date:x.date||'',text:x.text,from:s}}).filter(Boolean)}
 // ---- sync loop ----
-function tick(){if(document.visibilityState==='hidden')return;flushOwn().then(function(){return pollOther()});flushReq()}
+function tick(){if(document.visibilityState==='hidden')return;flushOwn().then(function(){return pollOther()});flushReq().then(pollReps)}
 render();
 fetch('data/daily_note.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).catch(function(){return {}}).then(function(d){seedFrom(d);render();tick()});
 setInterval(tick,60000);addEventListener('focus',tick);addEventListener('online',tick);document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')tick()});
-window.NoteSync={req:req,sync:tick};
+// ---- ask-the-assistant box (no WhatsApp): posts to the store, shows status + the assistant's reply ----
+var ab=$('askBtn'),at=$('askText'),askSt=null,askL=null;
+function drawAsk(){if(!askL)return;askL.textContent='';
+ reqs.filter(function(x){return x.src==='ask'}).slice(-5).reverse().forEach(function(x){var s=status(x.id),li=el('li','rq-i');
+  li.appendChild(el('span','rq-t',x.text.length>140?x.text.slice(0,140)+'…':x.text));li.appendChild(el('span','rq-c',s.label));
+  li.appendChild(el('div','rq-m',(x.date||'')+(x.time?' · '+x.time:'')));
+  if(s.text){var r=el('div','rq-r');r.appendChild(el('b',null,'↩️ '+(CFG.botName||'')+': '));r.appendChild(document.createTextNode(s.text));li.appendChild(r)}
+  askL.appendChild(li)})}
+if(ab&&at){var rcss=document.createElement('style');rcss.textContent='.rq-st{font-size:.9em;min-height:1.4em;margin:8px 2px}.rq-l{list-style:none;margin:8px 0 0;padding:0}.rq-i{border:1px solid rgba(128,128,128,.35);border-radius:12px;padding:8px 10px;margin-bottom:6px;font-size:.9em;line-height:1.8}.rq-c{display:inline-block;font-size:.8em;border:1px solid currentColor;border-radius:999px;padding:0 8px;margin-inline-start:8px;white-space:nowrap}.rq-m{font-size:.75em;opacity:.7}.rq-r{margin-top:4px;padding:6px 8px;border-radius:8px;background:rgba(128,128,128,.16)}';document.head.appendChild(rcss);
+ askSt=el('div','rq-st');askSt.id='askSt';askSt.setAttribute('aria-live','polite');askL=el('ul','rq-l');askL.id='askList';
+ ab.insertAdjacentElement('afterend',askL);ab.insertAdjacentElement('afterend',askSt);
+ ab.onclick=function(){var t=at.value.trim();if(!t)return;var id=req(t,'ask');if(!id)return;at.value='';askSt.textContent='جاري الإرسال…';
+  var done=function(){askSt.textContent=status(id).k==='queue'?'⏳ بانتظار الاتصال — انحفظ في جوالك وينرسل لحاله':'✅ تم إرسال طلبك '+(CFG.botTo||'')+' ✓'};
+  (rp||Promise.resolve()).then(done,done)};
+ drawAsk()}
+var fab=$('fab');if(fab&&ab){fab.removeAttribute('href');fab.removeAttribute('target');fab.setAttribute('role','button');
+ fab.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var s=$('ask')||ab;s.scrollIntoView({behavior:'smooth',block:'center'});setTimeout(function(){try{at.focus({preventScroll:true})}catch(_){}},400)},true)}
+window.NoteSync={req:req,sync:tick,status:status,onUpdate:function(f){subs.push(f)},botTo:CFG.botTo||'',whenSent:function(){return rp||Promise.resolve()}};
 })();

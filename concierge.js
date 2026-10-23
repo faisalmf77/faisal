@@ -1,6 +1,6 @@
 (function(){
 var box=document.getElementById('concierge');if(!box)return;
-var CFG=Object.assign({theme:'f',bot:'الرجيلي',prefix:'طلب للرجيلي (صفحتي): ',wa:'966590900178',tripDate:'2027-03-26',
+var CFG=Object.assign({theme:'f',bot:'الرجيلي',prefix:'طلب للرجيلي (صفحتي): ',tripDate:'2027-03-26',
  title:'🛎️ الكونسيرج',intro:'',rule:'',payNote:'',send:'أرسل للرجيلي 🛎️',me:'FAISAL MOHAMMED F ALMOAMMAR',
  pax:[{n:'FAISAL MOHAMMED F ALMOAMMAR',l:'فيصل'},{n:'NORAH SULAIMAN A AL THUNAYYAN',l:'نورة'}],hmBoth:true},window.CG_CFG||{});
 if(window.HQ_CONFIG&&window.HQ_CONFIG.tripDate&&!(window.CG_CFG&&window.CG_CFG.tripDate))CFG.tripDate=window.HQ_CONFIG.tripDate;
@@ -138,21 +138,19 @@ function build(){var c=cur,L=[];
  return t}
 function summary(){var c=cur,p=[];c.sum.forEach(function(k){var f=null;c.f.forEach(function(x){if(x.k===k)f=x});var v=vals[k];if(!v||!f||!visible(f))return;
  p.push(f.t==='date'?(+v.slice(8))+' '+AM[+v.slice(5,7)-1]:String(v).split('\n')[0].slice(0,40))});return p.join(' · ')||c.title}
-function waUrl(t){return 'https://wa.me/'+CFG.wa+(t?'?text='+encodeURIComponent(t):'')}
 // ---------------- views
 function homeH(){var h='<h2>'+esc(CFG.title)+'</h2><div class="cg-hint">'+esc(CFG.intro)+'</div><div class="cg-rule">📌 '+esc(CFG.rule)+'</div>';
  h+='<div class="cg-hm"><div class="cg-sec">💙 شهر العسل — اختصار سريع</div><div class="cg-chips">'+
   QD.map(function(q,i){return '<button type="button" class="cg-chip cg-hmc" data-i="'+i+'">'+q[1]+' '+esc(q[0].split(' (')[0])+(q[2]?' · 26 مارس 2027':'')+'</button>'}).join('')+'</div></div>';
  h+='<div class="cg-cats">'+CATS.map(function(c){return '<button type="button" class="cg-cat" data-k="'+c.k+'"><span class="cg-ci">'+c.ico+'</span><b>'+esc(c.t)+'</b><small>'+esc(c.d)+'</small></button>'}).join('')+'</div>';
- h+='<a class="cg-direct" href="'+waUrl('')+'" target="_blank" rel="noopener">💬 محادثة مباشرة مع '+esc(CFG.bot)+' على واتساب</a>';
  h+='<div class="cg-sec" id="cgHT">🧾 طلباتي</div><div id="cgHist"></div><div class="cg-sec">📒 حجوزاتي</div><div id="cgBk"></div>';
  return h}
 function formH(){var c=cur;
  return '<button type="button" class="cg-back">→ رجوع للخدمات</button><div class="cg-ft">'+c.ico+' '+esc(c.title)+'</div><div class="cg-ref">🔖 '+refId+'</div>'+
  '<div class="cg-fields">'+c.f.map(fieldH).join('')+'</div><div class="cg-err" id="cgErr" hidden></div>'+
  '<details class="cg-prev"><summary>👁️ معاينة الرسالة</summary><pre id="cgPrev"></pre></details>'+
- '<div class="cg-act"><button type="button" class="cg-send">'+esc(CFG.send)+'</button><button type="button" class="cg-copy">📋 نسخ فقط</button></div>'+
- '<div class="cg-hint">ينفتح واتساب والرسالة جاهزة، وتنسخ تلقائيًا احتياطًا. اضغط إرسال هناك.</div><div class="cg-rule">📌 '+esc(CFG.rule)+'</div>'}
+ '<div class="cg-act"><button type="button" class="cg-send">'+esc(CFG.send)+'</button></div>'+
+ '<div class="cg-hint">يوصل طلبك لـ'+esc(CFG.bot)+' مباشرة من الصفحة (بدون واتساب)، وتشوف حالته وردّه تحت في «طلباتي».</div><div class="cg-rule">📌 '+esc(CFG.rule)+'</div>'}
 function render(){
  box.innerHTML=(view==='home'?homeH():formH())+'<div class="cg-toast" id="cgToast" hidden></div>';
  document.body.classList.toggle('cg-formopen',view==='form');
@@ -164,13 +162,17 @@ function open(k,pre){cur=cat(k);vals=defVals(cur,pre);refId=newRef();view='form'
 function home(){view='home';render();box.scrollIntoView({block:'start'})}
 // ---------------- history
 function hist(){return ls('hist',[])}
+var SC={queue:'new',sent:'new',ack:'prog',prog:'prog',done:'done'};
+function stOf(r){var N=window.NoteSync;if(r.rid&&N&&N.status){var q=N.status(r.rid);return {c:SC[q.k]||'new',l:q.label,auto:1,rep:q.text}}
+ var s=ST.filter(function(x){return x[0]===r.st})[0]||ST[0];return {c:s[0],l:s[2]+' '+s[1],auto:0,rep:''}}
 function drawHist(){var e=document.getElementById('cgHist');if(!e)return;var H=hist();
  if(!H.length){e.innerHTML='<div class="cg-empty">ما أرسلت طلبات من هنا للحين. اختر خدمة من فوق 👆</div>';return}
- e.innerHTML=H.map(function(r,i){var s=ST.filter(function(x){return x[0]===r.st})[0]||ST[0];
+ e.innerHTML=H.map(function(r,i){var s=stOf(r);
   return '<div class="cg-h" data-i="'+i+'"><div class="cg-hh"><span class="cg-hi">'+r.ico+'</span><div class="cg-ht"><b>'+esc(r.title)+'</b><small>'+esc(r.sum)+'</small><small class="cg-hd">'+esc(r.ref)+' · '+esc(r.when)+'</small></div>'+
-  '<button type="button" class="cg-stc s-'+s[0]+'" title="غيّر الحالة">'+s[2]+' '+s[1]+'</button></div>'+
-  '<div class="cg-ha"><button type="button" class="cg-rs">🔁 فتح واتساب</button><button type="button" class="cg-cp">📋 نسخ</button><button type="button" class="cg-dl">🗑️</button></div></div>'}).join('')+
-  '<div class="cg-hint">اضغط على الحالة لتغييرها بنفسك. هذي حالات محفوظة في جهازك فقط.</div>'}
+  '<button type="button" class="cg-stc s-'+s.c+'" title="'+(s.auto?'حالة الطلب':'غيّر الحالة')+'">'+esc(s.l)+'</button></div>'+
+  (s.rep?'<div class="cg-rep"><b>↩️ '+esc(CFG.bot)+':</b> '+esc(s.rep)+'</div>':'')+
+  '<div class="cg-ha"><button type="button" class="cg-dl">🗑️ حذف من القائمة</button></div></div>'}).join('')+
+  '<div class="cg-hint">الحالة تتحدث لحالها: ⏳ بانتظار الاتصال ← ✓ وصل ← 👀 تم الاستلام ← ⏳ قيد التنفيذ ← ✅ تم. وردّ '+esc(CFG.bot)+' يظهر تحت الطلب.</div>'}
 function nowStr(){try{return new Intl.DateTimeFormat('ar-SA-u-nu-latn',{timeZone:'Asia/Riyadh',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date())}catch(e){return todayStr()}}
 function copy(t){return new Promise(function(res){
  try{if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(function(){res(true)},function(){res(fb())});return}}catch(e){}
@@ -201,11 +203,15 @@ function validate(){var c=cur,bad=[];
  if(bad.length||m){e.textContent=bad.length?'كمّل الحقول المعلّمة بـ * : '+bad.map(function(f){return f.l}).join('، '):m;e.hidden=false;
   var x=bad.length?box.querySelector('[data-f="'+bad[0].k+'"]'):null;if(x)x.scrollIntoView({block:'center',behavior:'smooth'});return false}
  e.hidden=true;return true}
-function send(){if(!validate())return;var t=build(),H=hist();
- H.unshift({ref:refId,ico:cur.ico,title:cur.title,sum:summary(),text:t,st:'new',when:nowStr()});lsSet('hist',H.slice(0,50));
- window.NoteSync&&NoteSync.req(t,'concierge');
- copy(t).then(function(ok){view='home';render();toast(ok?'✅ انحفظ الطلب ونُسخ، وينفتح واتساب الحين':'✅ انحفظ الطلب، وينفتح واتساب الحين');
-  setTimeout(function(){location.href=waUrl(t)},350)})}
+function send(){if(!validate())return;var t=build(),H=hist(),N=window.NoteSync;
+ var rid=N&&N.req?N.req(t,'concierge',{ref:refId,title:cur.title,ico:cur.ico,sum:summary()}):null;
+ H.unshift({ref:refId,ico:cur.ico,title:cur.title,sum:summary(),text:t,st:'new',when:nowStr(),rid:rid});lsSet('hist',H.slice(0,50));
+ view='home';render();
+ if(!rid){toast('⚠️ ما قدرت أرسل الطلب الحين، حاول بعد شوي');return}
+ toast('جاري الإرسال…');
+ var fin=function(){var q=N.status(rid);toast(q.k==='queue'?'⏳ انحفظ طلبك وينرسل أول ما يرجع الاتصال':'✅ تم إرسال طلبك ل'+CFG.bot+' ✓');drawHist()};
+ (N.whenSent?N.whenSent():Promise.resolve()).then(fin,fin);
+ box.scrollIntoView({block:'start'})}
 // ---------------- events
 box.addEventListener('click',function(ev){var t=ev.target,b=t.closest('button,a,summary');if(!b||!box.contains(b))return;
  if(b.classList.contains('cg-cat'))return open(b.dataset.k);
@@ -213,7 +219,6 @@ box.addEventListener('click',function(ev){var t=ev.target,b=t.closest('button,a,
   if(q[2])pre.start=q[2];return open('trip',pre)}
  if(b.classList.contains('cg-back'))return home();
  if(b.classList.contains('cg-send'))return send();
- if(b.classList.contains('cg-copy')){if(!validate())return;return copy(build()).then(function(ok){toast(ok?'📋 اننسخت الرسالة':'ما قدرت أنسخ، انسخها من المعاينة')})}
  if(b.classList.contains('cg-qc')){var f0=cur.f.filter(function(x){return x.quick})[0],q2=QD[+b.dataset.i];vals[f0.k]=q2[0];
   var qd=cur.f.filter(function(x){return x.qd})[0];if(q2[2]&&qd&&!vals[qd.k])vals[qd.k]=q2[2];
   box.querySelector('[data-k="'+f0.k+'"].cg-in').value=q2[0];if(qd){var di=box.querySelector('[data-k="'+qd.k+'"].cg-in');if(di)di.value=vals[qd.k]||''}return drawPrev()}
@@ -231,9 +236,7 @@ box.addEventListener('click',function(ev){var t=ev.target,b=t.closest('button,a,
   else{var v2=b.dataset.v;vals[k2]=vals[k2]===v2?'':v2;w.querySelectorAll('.cg-chip').forEach(function(x){x.classList.toggle('on',x.dataset.v===vals[k2])})}
   applyShow();return drawPrev()}
  var h=b.closest('.cg-h');if(h){var i2=+h.dataset.i,H=hist(),r=H[i2];if(!r)return;
-  if(b.classList.contains('cg-stc')){var ix=0;ST.forEach(function(s,j){if(s[0]===r.st)ix=j});r.st=ST[(ix+1)%ST.length][0];lsSet('hist',H);return drawHist()}
-  if(b.classList.contains('cg-rs')){return copy(r.text).then(function(){location.href=waUrl(r.text)})}
-  if(b.classList.contains('cg-cp'))return copy(r.text).then(function(ok){toast(ok?'📋 اننسخ الطلب':'ما قدرت أنسخ')});
+  if(b.classList.contains('cg-stc')){if(r.rid)return;var ix=0;ST.forEach(function(s,j){if(s[0]===r.st)ix=j});r.st=ST[(ix+1)%ST.length][0];lsSet('hist',H);return drawHist()}
   if(b.classList.contains('cg-dl')){if(confirm('تحذف هذا الطلب من السجل؟')){H.splice(i2,1);lsSet('hist',H);drawHist()}return}}
 });
 box.addEventListener('input',function(ev){var t=ev.target;if(!t.dataset||!t.dataset.k||!t.classList.contains('cg-in'))return;vals[t.dataset.k]=t.value;
@@ -241,5 +244,6 @@ box.addEventListener('input',function(ev){var t=ev.target;if(!t.dataset||!t.data
  var f=t.closest('.cg-f');if(f)f.classList.remove('bad');applyShow();drawPrev()});
 box.addEventListener('keydown',function(ev){if(ev.key==='Enter'&&ev.target.classList.contains('cg-pin')){ev.preventDefault();var b=box.querySelector('.cg-pxa');if(b)b.click()}});
 render();loadBk();
+if(window.NoteSync&&NoteSync.onUpdate)NoteSync.onUpdate(function(){if(view==='home')drawHist()});
 window.CG_DEBUG={open:open,vals:function(){return vals},build:function(){return build()}};
 })();
