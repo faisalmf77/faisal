@@ -3,46 +3,46 @@
   {
    "sym": "ASTI",
    "name": "Ascent Solar Technologies, Inc",
-   "price": 1.825,
-   "chg": 3.11,
+   "price": 1.71,
+   "chg": -3.39,
    "cur": "USD",
-   "time": "10-23 22:03",
+   "time": "10-23 23:00",
    "label": "Ascent Solar Technologies, Inc"
   },
   {
    "sym": "OLB",
    "name": "The OLB Group, Inc.",
-   "price": 0.295,
-   "chg": -5.75,
+   "price": 0.289,
+   "chg": -7.67,
    "cur": "USD",
-   "time": "10-23 22:06",
+   "time": "10-23 23:00",
    "label": "The OLB Group, Inc."
   },
   {
    "sym": "DVLT",
    "name": "Datavault AI Inc.",
-   "price": 0.1342,
-   "chg": 3.23,
+   "price": 0.1349,
+   "chg": 3.77,
    "cur": "USD",
-   "time": "10-23 22:08",
+   "time": "10-23 23:00",
    "label": "Datavault AI Inc."
   },
   {
    "sym": "FIG",
    "name": "Figma, Inc.",
-   "price": 24.755,
-   "chg": 2.72,
+   "price": 24.635,
+   "chg": 2.22,
    "cur": "USD",
-   "time": "10-23 22:08",
+   "time": "10-23 22:59",
    "label": "Figma, Inc."
   },
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 111.74,
-   "chg": -1.26,
+   "price": 111.96,
+   "chg": -1.07,
    "cur": "USD",
-   "time": "10-23 21:58",
+   "time": "10-23 22:52",
    "label": "برنت"
   },
   {
@@ -57,10 +57,10 @@
   {
    "sym": "SOUN",
    "name": "SoundHound AI, Inc.",
-   "price": 4.46,
-   "chg": -0.89,
+   "price": 4.43,
+   "chg": -1.56,
    "cur": "USD",
-   "time": "10-23 22:08",
+   "time": "10-23 23:00",
    "label": "SoundHound AI, Inc."
   },
   {
@@ -84,13 +84,13 @@
   {
    "sym": "ARKK",
    "name": "ARK Innovation ETF",
-   "price": 81.81,
-   "chg": -0.06,
+   "price": 81.886,
+   "chg": 0.03,
    "cur": "USD",
-   "time": "10-23 22:08",
+   "time": "10-23 22:59",
    "label": "ARK Innovation ETF"
   }
  ],
  "ok": true,
- "updated": "2026-10-23 22:08"
+ "updated": "2026-10-23 23:02"
 }
