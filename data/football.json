@@ -75,10 +75,10 @@
    "name": "EVE @ ARS",
    "home": "Arsenal",
    "away": "Everton",
-   "hs": "1",
+   "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "HT"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-24T14:00Z",
@@ -86,9 +86,9 @@
    "home": "Coventry City",
    "away": "Fulham",
    "hs": "0",
-   "as": "0",
-   "state": "in",
-   "detail": "HT"
+   "as": "1",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-24T16:30Z",
@@ -110,8 +110,8 @@
   },
   {
    "team": "Arsenal",
-   "gamesPlayed": "7",
-   "points": "18",
+   "gamesPlayed": "8",
+   "points": "21",
    "rank": "2"
   },
   {
@@ -140,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-24 18:00"
+ "updated": "2026-10-24 19:08"
 }
