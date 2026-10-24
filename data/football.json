@@ -61,14 +61,44 @@
  ],
  "pl": [
   {
-   "date": "2026-10-23T19:00Z",
-   "name": "NFO @ IPS",
-   "home": "Ipswich Town",
-   "away": "Nottingham Forest",
-   "hs": "1",
-   "as": "1",
-   "state": "post",
-   "detail": "FT"
+   "date": "2026-10-24T11:30Z",
+   "name": "MNC @ AVL",
+   "home": "Aston Villa",
+   "away": "Manchester City",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-10-24T14:00Z",
+   "name": "EVE @ ARS",
+   "home": "Arsenal",
+   "away": "Everton",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-10-24T14:00Z",
+   "name": "FUL @ COV",
+   "home": "Coventry City",
+   "away": "Fulham",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-10-24T16:30Z",
+   "name": "TOT @ CHE",
+   "home": "Chelsea",
+   "away": "Tottenham Hotspur",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
   }
  ],
  "plTop": [
@@ -110,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-24 10:07"
+ "updated": "2026-10-24 11:03"
 }
