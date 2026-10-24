@@ -96,9 +96,9 @@
    "home": "Chelsea",
    "away": "Tottenham Hotspur",
    "hs": "0",
-   "as": "0",
+   "as": "1",
    "state": "in",
-   "detail": "34'"
+   "detail": "82'"
   }
  ],
  "plTop": [
@@ -140,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-24 20:05"
+ "updated": "2026-10-24 21:08"
 }
