@@ -67,8 +67,8 @@
    "away": "Manchester City",
    "hs": "2",
    "as": "1",
-   "state": "in",
-   "detail": "79'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-24T14:00Z",
@@ -77,8 +77,8 @@
    "away": "Everton",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "7'"
   },
   {
    "date": "2026-10-24T14:00Z",
@@ -87,8 +87,8 @@
    "away": "Fulham",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "7'"
   },
   {
    "date": "2026-10-24T16:30Z",
@@ -104,7 +104,7 @@
  "plTop": [
   {
    "team": "Manchester City",
-   "gamesPlayed": "7",
+   "gamesPlayed": "8",
    "points": "21",
    "rank": "1"
   },
@@ -133,12 +133,12 @@
    "rank": "5"
   },
   {
-   "team": "Brentford",
-   "gamesPlayed": "7",
-   "points": "10",
+   "team": "Aston Villa",
+   "gamesPlayed": "8",
+   "points": "11",
    "rank": "6"
   }
  ],
  "ok": true,
- "updated": "2026-10-24 16:06"
+ "updated": "2026-10-24 17:07"
 }
