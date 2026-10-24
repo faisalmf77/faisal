@@ -65,10 +65,10 @@
    "name": "MNC @ AVL",
    "home": "Aston Villa",
    "away": "Manchester City",
-   "hs": "1",
-   "as": "0",
+   "hs": "2",
+   "as": "1",
    "state": "in",
-   "detail": "36'"
+   "detail": "79'"
   },
   {
    "date": "2026-10-24T14:00Z",
@@ -140,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-24 15:07"
+ "updated": "2026-10-24 16:06"
 }
