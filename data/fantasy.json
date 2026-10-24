@@ -102,7 +102,7 @@
    "news": "",
    "price": 6.0,
    "form": "5.3",
-   "sel": "54.8",
+   "sel": "54.7",
    "pts": 45,
    "fx": [
     {
@@ -263,9 +263,9 @@
    "chance": null,
    "news": "",
    "price": 8.0,
-   "form": "3.7",
+   "form": "4.3",
    "sel": "49.8",
-   "pts": 40,
+   "pts": 42,
    "fx": [
     {
      "gw": 9,
@@ -318,7 +318,7 @@
    "news": "",
    "price": 15.7,
    "form": "9.0",
-   "sel": "77.5",
+   "sel": "77.6",
    "pts": 66,
    "fx": [
     {
@@ -340,9 +340,9 @@
   "165": {
    "web": "João Pedro",
    "club": "CHE",
-   "status": "a",
-   "chance": 100,
-   "news": "",
+   "status": "d",
+   "chance": 75,
+   "news": "Unspecified injury - 75% chance of playing",
    "price": 7.9,
    "form": "4.7",
    "sel": "73.8",
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-24 19:08"
+ "updated": "2026-10-24 20:05"
 }
