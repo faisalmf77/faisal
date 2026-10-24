@@ -30,19 +30,19 @@
   {
    "sym": "FIG",
    "name": "Figma, Inc.",
-   "price": 24.635,
-   "chg": 2.22,
+   "price": 24.64,
+   "chg": 2.24,
    "cur": "USD",
-   "time": "10-23 22:59",
+   "time": "10-23 23:00",
    "label": "Figma, Inc."
   },
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 111.96,
-   "chg": -1.07,
+   "price": 111.66,
+   "chg": -1.33,
    "cur": "USD",
-   "time": "10-23 22:52",
+   "time": "10-23 23:59",
    "label": "برنت"
   },
   {
@@ -84,13 +84,13 @@
   {
    "sym": "ARKK",
    "name": "ARK Innovation ETF",
-   "price": 81.886,
-   "chg": 0.03,
+   "price": 81.99,
+   "chg": 0.16,
    "cur": "USD",
-   "time": "10-23 22:59",
+   "time": "10-23 23:00",
    "label": "ARK Innovation ETF"
   }
  ],
  "ok": true,
- "updated": "2026-10-23 23:02"
+ "updated": "2026-10-24 07:03"
 }

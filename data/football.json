@@ -67,8 +67,8 @@
    "away": "Nottingham Forest",
    "hs": "1",
    "as": "1",
-   "state": "in",
-   "detail": "HT"
+   "state": "post",
+   "detail": "FT"
   }
  ],
  "plTop": [
@@ -110,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-23 23:02"
+ "updated": "2026-10-24 07:03"
 }
