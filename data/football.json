@@ -75,10 +75,10 @@
    "name": "EVE @ ARS",
    "home": "Arsenal",
    "away": "Everton",
-   "hs": "0",
+   "hs": "1",
    "as": "0",
    "state": "in",
-   "detail": "7'"
+   "detail": "HT"
   },
   {
    "date": "2026-10-24T14:00Z",
@@ -88,7 +88,7 @@
    "hs": "0",
    "as": "0",
    "state": "in",
-   "detail": "7'"
+   "detail": "HT"
   },
   {
    "date": "2026-10-24T16:30Z",
@@ -140,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-24 17:07"
+ "updated": "2026-10-24 18:00"
 }
