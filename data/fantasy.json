@@ -102,7 +102,7 @@
    "news": "Hip injury - 75% chance of playing",
    "price": 6.0,
    "form": "5.3",
-   "sel": "54.2",
+   "sel": "54.1",
    "pts": 45,
    "fx": [
     {
@@ -155,9 +155,9 @@
    "chance": null,
    "news": "",
    "price": 5.3,
-   "form": "7.0",
+   "form": "7.3",
    "sel": "42.5",
-   "pts": 59,
+   "pts": 60,
    "fx": [
     {
      "gw": 9,
@@ -236,9 +236,9 @@
    "chance": null,
    "news": "",
    "price": 7.9,
-   "form": "5.3",
+   "form": "5.7",
    "sel": "22.0",
-   "pts": 41,
+   "pts": 42,
    "fx": [
     {
      "gw": 9,
@@ -290,9 +290,9 @@
    "chance": null,
    "news": "",
    "price": 6.2,
-   "form": "3.7",
+   "form": "4.0",
    "sel": "46.6",
-   "pts": 58,
+   "pts": 59,
    "fx": [
     {
      "gw": 9,
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-25 16:08"
+ "updated": "2026-10-25 17:06"
 }
