@@ -75,7 +75,7 @@
    "news": "",
    "price": 6.2,
    "form": "6.3",
-   "sel": "45.5",
+   "sel": "45.6",
    "pts": 49,
    "fx": [
     {
@@ -102,7 +102,7 @@
    "news": "Hip injury - 75% chance of playing",
    "price": 6.0,
    "form": "5.3",
-   "sel": "54.4",
+   "sel": "54.3",
    "pts": 45,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-25 10:05"
+ "updated": "2026-10-25 11:01"
 }
