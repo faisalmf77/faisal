@@ -1,12 +1,6 @@
 {
  "items": [
   {
-   "title": "اشتراط تقديم ضمان مالي للحصول على ترخيص فئة خدمات سفر وسياحة عام",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mV0tXLUtIdGhhX05KclhsazZwbi0xNXp0THlfcXNlYmlQcDFESklVWll5eDg1WmdJMjhPQlRmWUIzUlBiVTVPRXd0OVpmX2JYT3dJeDhaYkZEb2ZOT2dVZDJfN2ZnY3M?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "25 Sep 2026"
-  },
-  {
    "title": "دليل تراخيص الاستيراد",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5kcndJNk1wZEl0aGJwb1BIdmFGbkRYc2RaM05rZkFoSThmNVBXRHJIMXlZTlVfcFNXS1ppYVpRd3F0QUsyVkZLUUVUSm83NkdfbGllbFdqaC02RmxIUzlhWkQwMWNNRUU?oc=5",
    "source": "جريدة أم القرى",
@@ -37,6 +31,12 @@
    "date": "31 Jul 2026"
   },
   {
+   "title": "اشتراط تقديم ضمان مالي للحصول على ترخيص فئة خدمات سفر وسياحة عام",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mV0tXLUtIdGhhX05KclhsazZwbi0xNXp0THlfcXNlYmlQcDFESklVWll5eDg1WmdJMjhPQlRmWUIzUlBiVTVPRXd0OVpmX2JYT3dJeDhaYkZEb2ZOT2dVZDJfN2ZnY3M?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "25 Sep 2026"
+  },
+  {
    "title": "لائحة نشاط شبكة الغاز للأغراض السكنية والتجارية",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14UDdyUkZWYTFYcklCQWhRWnAtaHJwM2tNVG13blljcmkxY2kzbTJEMHZfbURtTjZWbS15YnVKMGU3MHZ1LUhvNGx1cGIyYXhLN1JoLTcyUHVUaDNBRjdBTS1RbVU4dmc?oc=5",
    "source": "جريدة أم القرى",
@@ -51,5 +51,5 @@
  ],
  "note": "عبر فهرس أخبار Google — uqn.gov.sa غير متاح مباشرة من الخادم",
  "ok": true,
- "updated": "2026-10-25 20:09"
+ "updated": "2026-10-25 21:05"
 }
