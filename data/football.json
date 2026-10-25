@@ -66,9 +66,9 @@
    "home": "Crystal Palace",
    "away": "Newcastle United",
    "hs": "0",
-   "as": "0",
-   "state": "in",
-   "detail": "HT"
+   "as": "2",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-25T14:00Z",
@@ -76,9 +76,9 @@
    "home": "Hull City",
    "away": "Brentford",
    "hs": "1",
-   "as": "0",
-   "state": "in",
-   "detail": "HT"
+   "as": "1",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-25T14:00Z",
@@ -87,8 +87,8 @@
    "away": "Brighton & Hove Albion",
    "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "HT"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-25T14:00Z",
@@ -96,9 +96,9 @@
    "home": "Manchester United",
    "away": "AFC Bournemouth",
    "hs": "0",
-   "as": "2",
-   "state": "in",
-   "detail": "HT"
+   "as": "3",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-25T16:30Z",
@@ -126,29 +126,29 @@
   },
   {
    "team": "Brighton & Hove Albion",
-   "gamesPlayed": "7",
+   "gamesPlayed": "8",
    "points": "16",
    "rank": "3"
+  },
+  {
+   "team": "Liverpool",
+   "gamesPlayed": "8",
+   "points": "15",
+   "rank": "4"
   },
   {
    "team": "Chelsea",
    "gamesPlayed": "8",
    "points": "13",
-   "rank": "4"
-  },
-  {
-   "team": "Liverpool",
-   "gamesPlayed": "7",
-   "points": "12",
    "rank": "5"
   },
   {
-   "team": "Aston Villa",
+   "team": "Brentford",
    "gamesPlayed": "8",
    "points": "11",
    "rank": "6"
   }
  ],
  "ok": true,
- "updated": "2026-10-25 18:01"
+ "updated": "2026-10-25 19:08"
 }

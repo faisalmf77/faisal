@@ -102,7 +102,7 @@
    "news": "Hip injury - 75% chance of playing",
    "price": 6.0,
    "form": "5.3",
-   "sel": "54.1",
+   "sel": "53.8",
    "pts": 45,
    "fx": [
     {
@@ -129,7 +129,7 @@
    "news": "",
    "price": 5.8,
    "form": "1.7",
-   "sel": "27.4",
+   "sel": "27.3",
    "pts": 42,
    "fx": [
     {
@@ -210,7 +210,7 @@
    "news": "",
    "price": 11.7,
    "form": "0.7",
-   "sel": "25.8",
+   "sel": "25.6",
    "pts": 33,
    "fx": [
     {
@@ -236,9 +236,9 @@
    "chance": null,
    "news": "",
    "price": 7.9,
-   "form": "5.7",
+   "form": "6.0",
    "sel": "22.0",
-   "pts": 42,
+   "pts": 43,
    "fx": [
     {
      "gw": 9,
@@ -290,9 +290,9 @@
    "chance": null,
    "news": "",
    "price": 6.2,
-   "form": "4.0",
+   "form": "3.7",
    "sel": "46.6",
-   "pts": 59,
+   "pts": 58,
    "fx": [
     {
      "gw": 9,
@@ -345,7 +345,7 @@
    "news": "Unspecified injury - 75% chance of playing",
    "price": 7.9,
    "form": "4.7",
-   "sel": "73.0",
+   "sel": "72.6",
    "pts": 47,
    "fx": [
     {
@@ -372,7 +372,7 @@
    "news": "",
    "price": 4.0,
    "form": "0.0",
-   "sel": "16.3",
+   "sel": "16.2",
    "pts": 0,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-25 18:01"
+ "updated": "2026-10-25 19:08"
 }
