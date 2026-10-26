@@ -10,16 +10,7 @@
    "state": "post",
    "detail": "FT"
   },
-  "next": {
-   "date": "2026-10-29T18:00Z",
-   "name": "KHO @ NSR",
-   "home": "Al Nassr",
-   "away": "Al Kholood",
-   "hs": {},
-   "as": {},
-   "state": "pre",
-   "detail": "10/29 - 2:00 PM EDT"
-  },
+  "next": null,
   "pos": {
    "team": "Al Nassr",
    "gamesPlayed": "10",
@@ -150,5 +141,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-26 11:06"
+ "updated": "2026-10-26 12:00"
 }
