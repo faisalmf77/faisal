@@ -6,11 +6,6 @@
  },
  "events": [
   {
-   "id": 8,
-   "name": "Gameweek 8",
-   "deadline": "2026-10-23T17:30:00Z"
-  },
-  {
    "id": 9,
    "name": "Gameweek 9",
    "deadline": "2026-10-31T11:00:00Z"
@@ -64,6 +59,11 @@
    "id": 19,
    "name": "Gameweek 19",
    "deadline": "2027-01-01T18:30:00Z"
+  },
+  {
+   "id": 20,
+   "name": "Gameweek 20",
+   "deadline": "2027-01-05T18:00:00Z"
   }
  ],
  "players": {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-26 18:04"
+ "updated": "2026-10-26 19:01"
 }
