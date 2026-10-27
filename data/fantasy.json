@@ -102,7 +102,7 @@
    "news": "Hip injury - 75% chance of playing",
    "price": 6.0,
    "form": "5.3",
-   "sel": "52.3",
+   "sel": "52.2",
    "pts": 45,
    "fx": [
     {
@@ -210,7 +210,7 @@
    "news": "",
    "price": 11.7,
    "form": "0.7",
-   "sel": "24.6",
+   "sel": "24.5",
    "pts": 33,
    "fx": [
     {
@@ -318,7 +318,7 @@
    "news": "",
    "price": 15.7,
    "form": "9.0",
-   "sel": "78.0",
+   "sel": "78.1",
    "pts": 66,
    "fx": [
     {
@@ -340,12 +340,12 @@
   "165": {
    "web": "João Pedro",
    "club": "CHE",
-   "status": "d",
-   "chance": 75,
-   "news": "Unspecified injury - 75% chance of playing",
+   "status": "i",
+   "chance": 0,
+   "news": "Thigh injury - Unknown return date",
    "price": 7.9,
    "form": "4.7",
-   "sel": "70.5",
+   "sel": "70.1",
    "pts": 47,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-27 17:05"
+ "updated": "2026-10-27 18:12"
 }
