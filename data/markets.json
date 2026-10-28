@@ -15,16 +15,16 @@
    "price": 4054.0,
    "chg": -0.51,
    "cur": "USD",
-   "time": "10-28 17:56",
+   "time": "10-28 18:50",
    "label": "الذهب (أونصة)"
   },
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 111.92,
-   "chg": -1.72,
+   "price": 112.51,
+   "chg": -1.2,
    "cur": "USD",
-   "time": "10-28 17:56",
+   "time": "10-28 18:50",
    "label": "برنت"
   },
   {
@@ -33,10 +33,10 @@
    "price": 3.7524,
    "chg": null,
    "cur": "SAR",
-   "time": "10-28 17:44",
+   "time": "10-28 18:57",
    "label": "الدولار/ريال"
   }
  ],
  "ok": true,
- "updated": "2026-10-28 18:06"
+ "updated": "2026-10-28 19:00"
 }
