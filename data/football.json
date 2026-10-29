@@ -1,11 +1,11 @@
 {
  "nassr": {
   "last": {
-   "date": "2026-10-23T13:30Z",
-   "name": "NSR @ ALF",
-   "home": "Al Faisaly",
-   "away": "Al Nassr",
-   "hs": "1",
+   "date": "2026-10-29T18:00Z",
+   "name": "KHO @ NSR",
+   "home": "Al Nassr",
+   "away": "Al Kholood",
+   "hs": "5",
    "as": "3",
    "state": "post",
    "detail": "FT"
@@ -22,28 +22,28 @@
   },
   "pos": {
    "team": "Al Nassr",
-   "gamesPlayed": "10",
-   "points": "25",
+   "gamesPlayed": "11",
+   "points": "28",
    "rank": "2"
   }
  },
  "ksaTop": [
   {
-   "team": "Al Hilal",
-   "gamesPlayed": "10",
-   "points": "27",
+   "team": "Al Qadsiah",
+   "gamesPlayed": "12",
+   "points": "28",
    "rank": "1"
   },
   {
    "team": "Al Nassr",
-   "gamesPlayed": "10",
-   "points": "25",
+   "gamesPlayed": "11",
+   "points": "28",
    "rank": "2"
   },
   {
-   "team": "Al Qadsiah",
-   "gamesPlayed": "11",
-   "points": "25",
+   "team": "Al Hilal",
+   "gamesPlayed": "10",
+   "points": "27",
    "rank": "3"
   },
   {
@@ -180,5 +180,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-29 22:08"
+ "updated": "2026-10-29 23:09"
 }
