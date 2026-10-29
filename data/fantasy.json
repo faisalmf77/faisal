@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.8,
    "form": "4.7",
-   "sel": "63.0",
+   "sel": "62.9",
    "pts": 47,
    "fx": [
     {
@@ -399,7 +399,7 @@
    "news": "",
    "price": 3.9,
    "form": "2.0",
-   "sel": "10.7",
+   "sel": "10.6",
    "pts": 18,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-29 09:07"
+ "updated": "2026-10-29 10:01"
 }
