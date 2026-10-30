@@ -102,7 +102,7 @@
    "news": "Hip injury - 75% chance of playing",
    "price": 5.9,
    "form": "5.3",
-   "sel": "49.7",
+   "sel": "49.6",
    "pts": 45,
    "fx": [
     {
@@ -210,7 +210,7 @@
    "news": "",
    "price": 11.7,
    "form": "0.7",
-   "sel": "23.7",
+   "sel": "23.6",
    "pts": 33,
    "fx": [
     {
@@ -291,7 +291,7 @@
    "news": "",
    "price": 6.2,
    "form": "3.7",
-   "sel": "46.0",
+   "sel": "45.9",
    "pts": 58,
    "fx": [
     {
@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.8,
    "form": "4.7",
-   "sel": "58.1",
+   "sel": "57.5",
    "pts": 47,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-30 14:02"
+ "updated": "2026-10-30 15:07"
 }
