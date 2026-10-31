@@ -67,8 +67,8 @@
    "away": "Manchester United",
    "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "75'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-31T15:00Z",
@@ -77,8 +77,8 @@
    "away": "Leeds United",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "5'"
   },
   {
    "date": "2026-10-31T15:00Z",
@@ -87,8 +87,8 @@
    "away": "Nottingham Forest",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "4'"
   },
   {
    "date": "2026-10-31T15:00Z",
@@ -97,8 +97,8 @@
    "away": "Sunderland",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "4'"
   },
   {
    "date": "2026-10-31T15:00Z",
@@ -107,8 +107,8 @@
    "away": "Ipswich Town",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "2'"
   },
   {
    "date": "2026-10-31T15:00Z",
@@ -117,8 +117,8 @@
    "away": "Brighton & Hove Albion",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "4'"
   },
   {
    "date": "2026-10-31T17:30Z",
@@ -161,15 +161,15 @@
    "rank": "3"
   },
   {
-   "team": "Liverpool",
-   "gamesPlayed": "8",
-   "points": "15",
+   "team": "Chelsea",
+   "gamesPlayed": "9",
+   "points": "16",
    "rank": "4"
   },
   {
-   "team": "Chelsea",
+   "team": "Liverpool",
    "gamesPlayed": "8",
-   "points": "13",
+   "points": "15",
    "rank": "5"
   },
   {
@@ -180,5 +180,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-31 17:04"
+ "updated": "2026-10-31 18:04"
 }
