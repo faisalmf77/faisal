@@ -75,7 +75,7 @@
    "news": "",
    "price": 6.2,
    "form": "4.8",
-   "sel": "46.2",
+   "sel": "46.3",
    "pts": 49,
    "fx": [
     {
@@ -102,7 +102,7 @@
    "news": "Hip injury - 75% chance of playing",
    "price": 5.9,
    "form": "4.0",
-   "sel": "48.2",
+   "sel": "48.1",
    "pts": 45,
    "fx": [
     {
@@ -156,7 +156,7 @@
    "news": "",
    "price": 5.3,
    "form": "7.8",
-   "sel": "43.7",
+   "sel": "43.8",
    "pts": 69,
    "fx": [
     {
@@ -210,7 +210,7 @@
    "news": "",
    "price": 11.7,
    "form": "1.0",
-   "sel": "22.5",
+   "sel": "22.4",
    "pts": 35,
    "fx": [
     {
@@ -290,9 +290,9 @@
    "chance": null,
    "news": "",
    "price": 6.2,
-   "form": "3.5",
+   "form": "3.2",
    "sel": "46.7",
-   "pts": 61,
+   "pts": 60,
    "fx": [
     {
      "gw": 10,
@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.8,
    "form": "3.5",
-   "sel": "45.4",
+   "sel": "45.1",
    "pts": 47,
    "fx": [
     {
@@ -398,9 +398,9 @@
    "chance": null,
    "news": "",
    "price": 3.9,
-   "form": "2.2",
+   "form": "2.0",
    "sel": "10.3",
-   "pts": 21,
+   "pts": 20,
    "fx": [
     {
      "gw": 10,
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-10-31 20:05"
+ "updated": "2026-10-31 21:01"
 }
