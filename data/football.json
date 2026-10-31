@@ -65,10 +65,10 @@
    "name": "MAN @ CHE",
    "home": "Chelsea",
    "away": "Manchester United",
-   "hs": "0",
+   "hs": "2",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "75'"
   },
   {
    "date": "2026-10-31T15:00Z",
@@ -180,5 +180,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-31 15:07"
+ "updated": "2026-10-31 17:04"
 }
