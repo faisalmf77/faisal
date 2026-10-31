@@ -24,26 +24,26 @@
    "team": "Al Nassr",
    "gamesPlayed": "11",
    "points": "28",
-   "rank": "2"
+   "rank": "3"
   }
  },
  "ksaTop": [
   {
+   "team": "Al Hilal",
+   "gamesPlayed": "11",
+   "points": "30",
+   "rank": "1"
+  },
+  {
    "team": "Al Qadsiah",
    "gamesPlayed": "12",
    "points": "28",
-   "rank": "1"
+   "rank": "2"
   },
   {
    "team": "Al Nassr",
    "gamesPlayed": "11",
    "points": "28",
-   "rank": "2"
-  },
-  {
-   "team": "Al Hilal",
-   "gamesPlayed": "10",
-   "points": "27",
    "rank": "3"
   },
   {
@@ -127,8 +127,8 @@
    "away": "Crystal Palace",
    "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "77'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-31T20:00Z",
@@ -137,8 +137,8 @@
    "away": "Fulham",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "4'"
   }
  ],
  "plTop": [
@@ -180,5 +180,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-31 22:05"
+ "updated": "2026-10-31 23:05"
 }
