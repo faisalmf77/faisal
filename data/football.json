@@ -75,40 +75,40 @@
    "name": "LEE @ BOU",
    "home": "AFC Bournemouth",
    "away": "Leeds United",
-   "hs": "0",
+   "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "5'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-31T15:00Z",
    "name": "NFO @ BRE",
    "home": "Brentford",
    "away": "Nottingham Forest",
-   "hs": "0",
+   "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "4'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-31T15:00Z",
    "name": "SUN @ COV",
    "home": "Coventry City",
    "away": "Sunderland",
-   "hs": "0",
-   "as": "0",
-   "state": "in",
-   "detail": "4'"
+   "hs": "3",
+   "as": "1",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-31T15:00Z",
    "name": "IPS @ HUL",
    "home": "Hull City",
    "away": "Ipswich Town",
-   "hs": "0",
-   "as": "0",
-   "state": "in",
-   "detail": "2'"
+   "hs": "2",
+   "as": "2",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-31T15:00Z",
@@ -116,9 +116,9 @@
    "home": "Manchester City",
    "away": "Brighton & Hove Albion",
    "hs": "0",
-   "as": "0",
-   "state": "in",
-   "detail": "4'"
+   "as": "1",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-10-31T17:30Z",
@@ -144,7 +144,7 @@
  "plTop": [
   {
    "team": "Manchester City",
-   "gamesPlayed": "8",
+   "gamesPlayed": "9",
    "points": "21",
    "rank": "1"
   },
@@ -156,8 +156,8 @@
   },
   {
    "team": "Brighton & Hove Albion",
-   "gamesPlayed": "8",
-   "points": "16",
+   "gamesPlayed": "9",
+   "points": "19",
    "rank": "3"
   },
   {
@@ -174,11 +174,11 @@
   },
   {
    "team": "Brentford",
-   "gamesPlayed": "8",
-   "points": "11",
+   "gamesPlayed": "9",
+   "points": "14",
    "rank": "6"
   }
  ],
  "ok": true,
- "updated": "2026-10-31 18:04"
+ "updated": "2026-10-31 20:05"
 }
