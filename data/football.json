@@ -125,10 +125,10 @@
    "name": "CRY @ TOT",
    "home": "Tottenham Hotspur",
    "away": "Crystal Palace",
-   "hs": "1",
+   "hs": "2",
    "as": "0",
    "state": "in",
-   "detail": "31'"
+   "detail": "77'"
   },
   {
    "date": "2026-10-31T20:00Z",
@@ -180,5 +180,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-10-31 21:01"
+ "updated": "2026-10-31 22:05"
 }
