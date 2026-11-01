@@ -74,9 +74,9 @@
    "chance": null,
    "news": "",
    "price": 6.2,
-   "form": "4.8",
-   "sel": "46.3",
-   "pts": 49,
+   "form": "6.0",
+   "sel": "46.4",
+   "pts": 54,
    "fx": [
     {
      "gw": 10,
@@ -97,13 +97,13 @@
   "8": {
    "web": "Calafiori",
    "club": "ARS",
-   "status": "d",
-   "chance": 75,
-   "news": "Hip injury - 75% chance of playing",
+   "status": "a",
+   "chance": 100,
+   "news": "",
    "price": 5.9,
-   "form": "4.0",
-   "sel": "47.9",
-   "pts": 45,
+   "form": "6.0",
+   "sel": "47.8",
+   "pts": 53,
    "fx": [
     {
      "gw": 10,
@@ -129,7 +129,7 @@
    "news": "",
    "price": 5.7,
    "form": "1.8",
-   "sel": "26.4",
+   "sel": "26.3",
    "pts": 44,
    "fx": [
     {
@@ -156,7 +156,7 @@
    "news": "",
    "price": 5.4,
    "form": "7.8",
-   "sel": "44.0",
+   "sel": "44.3",
    "pts": 69,
    "fx": [
     {
@@ -210,7 +210,7 @@
    "news": "",
    "price": 11.7,
    "form": "1.0",
-   "sel": "22.3",
+   "sel": "22.1",
    "pts": 35,
    "fx": [
     {
@@ -237,7 +237,7 @@
    "news": "",
    "price": 7.9,
    "form": "4.8",
-   "sel": "21.0",
+   "sel": "20.8",
    "pts": 44,
    "fx": [
     {
@@ -264,7 +264,7 @@
    "news": "",
    "price": 8.1,
    "form": "5.2",
-   "sel": "51.5",
+   "sel": "51.8",
    "pts": 50,
    "fx": [
     {
@@ -291,7 +291,7 @@
    "news": "",
    "price": 6.2,
    "form": "3.2",
-   "sel": "46.7",
+   "sel": "46.8",
    "pts": 60,
    "fx": [
     {
@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.7,
    "form": "3.5",
-   "sel": "43.9",
+   "sel": "42.7",
    "pts": 47,
    "fx": [
     {
@@ -426,7 +426,7 @@
    "news": "",
    "price": 4.3,
    "form": "0.5",
-   "sel": "5.8",
+   "sel": "5.7",
    "pts": 4,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-01 07:03"
+ "updated": "2026-11-01 22:00"
 }

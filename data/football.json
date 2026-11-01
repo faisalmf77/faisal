@@ -61,81 +61,11 @@
  ],
  "pl": [
   {
-   "date": "2026-10-31T12:30Z",
-   "name": "MAN @ CHE",
-   "home": "Chelsea",
-   "away": "Manchester United",
-   "hs": "2",
-   "as": "0",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-10-31T15:00Z",
-   "name": "LEE @ BOU",
-   "home": "AFC Bournemouth",
-   "away": "Leeds United",
-   "hs": "2",
-   "as": "0",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-10-31T15:00Z",
-   "name": "NFO @ BRE",
-   "home": "Brentford",
-   "away": "Nottingham Forest",
-   "hs": "2",
-   "as": "0",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-10-31T15:00Z",
-   "name": "SUN @ COV",
-   "home": "Coventry City",
-   "away": "Sunderland",
-   "hs": "3",
-   "as": "1",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-10-31T15:00Z",
-   "name": "IPS @ HUL",
-   "home": "Hull City",
-   "away": "Ipswich Town",
-   "hs": "2",
-   "as": "2",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-10-31T15:00Z",
-   "name": "BHA @ MNC",
-   "home": "Manchester City",
-   "away": "Brighton & Hove Albion",
+   "date": "2026-11-01T16:30Z",
+   "name": "ARS @ LIV",
+   "home": "Liverpool",
+   "away": "Arsenal",
    "hs": "0",
-   "as": "1",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-10-31T17:30Z",
-   "name": "CRY @ TOT",
-   "home": "Tottenham Hotspur",
-   "away": "Crystal Palace",
-   "hs": "2",
-   "as": "0",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-10-31T20:00Z",
-   "name": "FUL @ AVL",
-   "home": "Aston Villa",
-   "away": "Fulham",
-   "hs": "1",
    "as": "1",
    "state": "post",
    "detail": "FT"
@@ -143,14 +73,14 @@
  ],
  "plTop": [
   {
-   "team": "Manchester City",
+   "team": "Arsenal",
    "gamesPlayed": "9",
-   "points": "21",
+   "points": "24",
    "rank": "1"
   },
   {
-   "team": "Arsenal",
-   "gamesPlayed": "8",
+   "team": "Manchester City",
+   "gamesPlayed": "9",
    "points": "21",
    "rank": "2"
   },
@@ -168,7 +98,7 @@
   },
   {
    "team": "Liverpool",
-   "gamesPlayed": "8",
+   "gamesPlayed": "9",
    "points": "15",
    "rank": "5"
   },
@@ -180,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-01 07:03"
+ "updated": "2026-11-01 22:00"
 }
