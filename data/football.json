@@ -66,9 +66,9 @@
    "home": "Newcastle United",
    "away": "Everton",
    "hs": "0",
-   "as": "0",
-   "state": "in",
-   "detail": "12'"
+   "as": "1",
+   "state": "post",
+   "detail": "FT"
   }
  ],
  "plTop": [
@@ -110,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-02 23:11"
+ "updated": "2026-11-03 07:08"
 }
