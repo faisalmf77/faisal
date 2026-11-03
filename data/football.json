@@ -10,16 +10,7 @@
    "state": "post",
    "detail": "FT"
   },
-  "next": {
-   "date": "2026-11-06T14:55Z",
-   "name": "NSR @ HAZ",
-   "home": "Al Hazem",
-   "away": "Al Nassr",
-   "hs": {},
-   "as": {},
-   "state": "pre",
-   "detail": "11/6 - 9:55 AM EST"
-  },
+  "next": null,
   "pos": {
    "team": "Al Nassr",
    "gamesPlayed": "11",
@@ -110,5 +101,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-03 14:09"
+ "updated": "2026-11-03 15:09"
 }
