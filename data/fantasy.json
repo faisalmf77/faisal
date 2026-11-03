@@ -84,13 +84,6 @@
      "home": true,
      "kickoff": "2026-11-07T15:00:00Z",
      "diff": 2
-    },
-    {
-     "gw": 11,
-     "opp": "NEW",
-     "home": false,
-     "kickoff": "2026-11-21T17:30:00Z",
-     "diff": 3
     }
    ]
   },
@@ -111,13 +104,6 @@
      "home": true,
      "kickoff": "2026-11-07T15:00:00Z",
      "diff": 2
-    },
-    {
-     "gw": 11,
-     "opp": "NEW",
-     "home": false,
-     "kickoff": "2026-11-21T17:30:00Z",
-     "diff": 3
     }
    ]
   },
@@ -137,13 +123,6 @@
      "opp": "NFO",
      "home": false,
      "kickoff": "2026-11-07T17:30:00Z",
-     "diff": 2
-    },
-    {
-     "gw": 11,
-     "opp": "FUL",
-     "home": true,
-     "kickoff": "2026-11-21T12:30:00Z",
      "diff": 2
     }
    ]
@@ -165,13 +144,6 @@
      "home": true,
      "kickoff": "2026-11-08T14:00:00Z",
      "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "HUL",
-     "home": false,
-     "kickoff": "2026-11-22T14:00:00Z",
-     "diff": 2
     }
    ]
   },
@@ -191,13 +163,6 @@
      "opp": "MCI",
      "home": true,
      "kickoff": "2026-11-07T17:30:00Z",
-     "diff": 4
-    },
-    {
-     "gw": 11,
-     "opp": "BOU",
-     "home": false,
-     "kickoff": "2026-11-21T15:00:00Z",
      "diff": 4
     }
    ]
@@ -219,13 +184,6 @@
      "home": true,
      "kickoff": "2026-11-08T16:30:00Z",
      "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "LIV",
-     "home": false,
-     "kickoff": "2026-11-22T16:30:00Z",
-     "diff": 4
     }
    ]
   },
@@ -246,13 +204,6 @@
      "home": true,
      "kickoff": "2026-11-08T16:30:00Z",
      "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "LIV",
-     "home": false,
-     "kickoff": "2026-11-22T16:30:00Z",
-     "diff": 4
     }
    ]
   },
@@ -264,7 +215,7 @@
    "news": "",
    "price": 8.1,
    "form": "5.2",
-   "sel": "52.4",
+   "sel": "52.5",
    "pts": 50,
    "fx": [
     {
@@ -272,13 +223,6 @@
      "opp": "SUN",
      "home": false,
      "kickoff": "2026-11-08T14:00:00Z",
-     "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "LEE",
-     "home": true,
-     "kickoff": "2026-11-21T15:00:00Z",
      "diff": 3
     }
    ]
@@ -300,13 +244,6 @@
      "home": true,
      "kickoff": "2026-11-08T14:00:00Z",
      "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "HUL",
-     "home": false,
-     "kickoff": "2026-11-22T14:00:00Z",
-     "diff": 2
     }
    ]
   },
@@ -326,13 +263,6 @@
      "opp": "NFO",
      "home": false,
      "kickoff": "2026-11-07T17:30:00Z",
-     "diff": 2
-    },
-    {
-     "gw": 11,
-     "opp": "FUL",
-     "home": true,
-     "kickoff": "2026-11-21T12:30:00Z",
      "diff": 2
     }
    ]
@@ -354,13 +284,6 @@
      "home": false,
      "kickoff": "2026-11-08T14:00:00Z",
      "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "LEE",
-     "home": true,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 3
     }
    ]
   },
@@ -381,13 +304,6 @@
      "home": false,
      "kickoff": "2026-11-07T12:30:00Z",
      "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "IPS",
-     "home": true,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 2
     }
    ]
   },
@@ -407,13 +323,6 @@
      "opp": "BOU",
      "home": true,
      "kickoff": "2026-11-08T14:00:00Z",
-     "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "TOT",
-     "home": false,
-     "kickoff": "2026-11-21T15:00:00Z",
      "diff": 3
     }
    ]
@@ -435,13 +344,6 @@
      "home": true,
      "kickoff": "2026-11-08T14:00:00Z",
      "diff": 4
-    },
-    {
-     "gw": 11,
-     "opp": "COV",
-     "home": false,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 2
     }
    ]
   },
@@ -462,17 +364,10 @@
      "home": true,
      "kickoff": "2026-11-07T15:00:00Z",
      "diff": 3
-    },
-    {
-     "gw": 11,
-     "opp": "MCI",
-     "home": false,
-     "kickoff": "2026-11-21T12:30:00Z",
-     "diff": 5
     }
    ]
   }
  },
  "ok": true,
- "updated": "2026-11-03 22:05"
+ "updated": "2026-11-03 23:06"
 }
