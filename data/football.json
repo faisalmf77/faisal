@@ -61,14 +61,14 @@
  ],
  "pl": [
   {
-   "date": "2026-11-02T20:00Z",
-   "name": "EVE @ NEW",
-   "home": "Newcastle United",
-   "away": "Everton",
+   "date": "2026-11-06T20:00Z",
+   "name": "COV @ EVE",
+   "home": "Everton",
+   "away": "Coventry City",
    "hs": "0",
-   "as": "1",
-   "state": "post",
-   "detail": "FT"
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
   }
  ],
  "plTop": [
@@ -110,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-03 07:08"
+ "updated": "2026-11-03 09:05"
 }
