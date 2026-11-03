@@ -11,14 +11,14 @@
    "detail": "FT"
   },
   "next": {
-   "date": "2026-11-06T14:55Z",
-   "name": "NSR @ HAZ",
-   "home": "Al Hazem",
-   "away": "Al Nassr",
+   "date": "2026-11-20T20:00Z",
+   "name": "QAD @ NSR",
+   "home": "Al Nassr",
+   "away": "Al Qadsiah",
    "hs": {},
    "as": {},
    "state": "pre",
-   "detail": "11/6 - 9:55 AM EST"
+   "detail": "TBD"
   },
   "pos": {
    "team": "Al Nassr",
@@ -110,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-03 18:02"
+ "updated": "2026-11-03 19:11"
 }
