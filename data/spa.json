@@ -1,16 +1,10 @@
 {
  "items": [
   {
-   "title": "عام / تنفيذ حكم القتل \"حد الغيلة\" في أحد الجناة بمنطقة مكة المكرمة",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8xdERYME9tZ0UtREFiVzR6QzdSRWZvVkpVNndmWGRLS3REX2lDbW1fZGJKeWU5RVFzMThLRlVJbnE3Z1hZWEE?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "03 Nov 2026"
-  },
-  {
    "title": "رياضي / نيوم يتغلب على الدحيل القطري بثلاثة أهداف دون رد في منافسات دوري أبطال الخليج للأندية",
    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBIdkFlZzc2UlhnQThlWHV2cV9oUnJyNlU1ZWJKTkd6UjE5TUhkZHZvWmZ5WG9GcFRPU3pjeTJfVE92NFVuSXc?oc=5",
    "source": "وكالة الأنباء السعودية",
-   "date": "04 Nov 2026"
+   "date": "03 Nov 2026"
   },
   {
    "title": "رياضي / الهلال يتغلّب على شباب الأهلي بثنائية في دوري أبطال آسيا للنخبة",
@@ -25,10 +19,16 @@
    "date": "04 Nov 2026"
   },
   {
+   "title": "عام / كلية السياحة والفندقة بالمدينة المنورة توقّع شراكات مجتمعية لتعزيز التدريب والتأهيل المهني",
+   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1wd3JIcFNfd3hpU2lvTTA0M0ZYWFhFY1FXNEhEYjZ6dGFDaTRNejZpdkV6LTZQU0MtWXVfZHB1MExiYjZoZ0E?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "date": "04 Nov 2026"
+  },
+  {
    "title": "اقتصادي / أمير منطقة الجوف يدشّن مشروعات بلدية وتنموية بمحافظة طبرجل بأكثر من 23 مليون ريال",
    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE84Q0xyMU1PRXRIcUdqdUEtV2VrNnZmSkVUUUhCbUVFOHZCR1NBZTQzMFJhMG9fQ3l2eFB4S1JLSHJSS1oxcXc?oc=5",
    "source": "وكالة الأنباء السعودية",
-   "date": "03 Nov 2026"
+   "date": "04 Nov 2026"
   },
   {
    "title": "عام / أمانة جازان تنفذ أكثر من (65) ألف جولة ميدانية للصحة العامة",
@@ -51,5 +51,5 @@
  ],
  "note": "عبر فهرس أخبار Google لموقع واس (spa.gov.sa لا يوفر RSS)",
  "ok": true,
- "updated": "2026-11-04 21:07"
+ "updated": "2026-11-04 22:06"
 }
