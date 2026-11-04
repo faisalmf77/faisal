@@ -84,6 +84,13 @@
      "home": true,
      "kickoff": "2026-11-07T15:00:00Z",
      "diff": 2
+    },
+    {
+     "gw": 11,
+     "opp": "NEW",
+     "home": false,
+     "kickoff": "2026-11-21T17:30:00Z",
+     "diff": 3
     }
    ]
   },
@@ -95,7 +102,7 @@
    "news": "",
    "price": 5.9,
    "form": "5.5",
-   "sel": "47.9",
+   "sel": "48.0",
    "pts": 51,
    "fx": [
     {
@@ -104,6 +111,13 @@
      "home": true,
      "kickoff": "2026-11-07T15:00:00Z",
      "diff": 2
+    },
+    {
+     "gw": 11,
+     "opp": "NEW",
+     "home": false,
+     "kickoff": "2026-11-21T17:30:00Z",
+     "diff": 3
     }
    ]
   },
@@ -124,6 +138,13 @@
      "home": false,
      "kickoff": "2026-11-07T17:30:00Z",
      "diff": 2
+    },
+    {
+     "gw": 11,
+     "opp": "FUL",
+     "home": true,
+     "kickoff": "2026-11-21T12:30:00Z",
+     "diff": 2
     }
    ]
   },
@@ -135,7 +156,7 @@
    "news": "",
    "price": 5.4,
    "form": "7.8",
-   "sel": "45.0",
+   "sel": "45.1",
    "pts": 69,
    "fx": [
     {
@@ -144,6 +165,13 @@
      "home": true,
      "kickoff": "2026-11-08T14:00:00Z",
      "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "HUL",
+     "home": false,
+     "kickoff": "2026-11-22T14:00:00Z",
+     "diff": 2
     }
    ]
   },
@@ -153,7 +181,7 @@
    "status": "a",
    "chance": null,
    "news": "",
-   "price": 4.3,
+   "price": 4.2,
    "form": "0.2",
    "sel": "1.5",
    "pts": 9,
@@ -163,6 +191,13 @@
      "opp": "MCI",
      "home": true,
      "kickoff": "2026-11-07T17:30:00Z",
+     "diff": 4
+    },
+    {
+     "gw": 11,
+     "opp": "BOU",
+     "home": false,
+     "kickoff": "2026-11-21T15:00:00Z",
      "diff": 4
     }
    ]
@@ -175,7 +210,7 @@
    "news": "",
    "price": 11.7,
    "form": "1.0",
-   "sel": "21.6",
+   "sel": "21.5",
    "pts": 35,
    "fx": [
     {
@@ -184,6 +219,13 @@
      "home": true,
      "kickoff": "2026-11-08T16:30:00Z",
      "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "LIV",
+     "home": false,
+     "kickoff": "2026-11-22T16:30:00Z",
+     "diff": 4
     }
    ]
   },
@@ -204,6 +246,13 @@
      "home": true,
      "kickoff": "2026-11-08T16:30:00Z",
      "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "LIV",
+     "home": false,
+     "kickoff": "2026-11-22T16:30:00Z",
+     "diff": 4
     }
    ]
   },
@@ -213,7 +262,7 @@
    "status": "a",
    "chance": null,
    "news": "",
-   "price": 8.1,
+   "price": 8.2,
    "form": "5.2",
    "sel": "52.5",
    "pts": 50,
@@ -223,6 +272,13 @@
      "opp": "SUN",
      "home": false,
      "kickoff": "2026-11-08T14:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "LEE",
+     "home": true,
+     "kickoff": "2026-11-21T15:00:00Z",
      "diff": 3
     }
    ]
@@ -244,6 +300,13 @@
      "home": true,
      "kickoff": "2026-11-08T14:00:00Z",
      "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "HUL",
+     "home": false,
+     "kickoff": "2026-11-22T14:00:00Z",
+     "diff": 2
     }
    ]
   },
@@ -264,6 +327,13 @@
      "home": false,
      "kickoff": "2026-11-07T17:30:00Z",
      "diff": 2
+    },
+    {
+     "gw": 11,
+     "opp": "FUL",
+     "home": true,
+     "kickoff": "2026-11-21T12:30:00Z",
+     "diff": 2
     }
    ]
   },
@@ -275,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.7,
    "form": "3.5",
-   "sel": "40.0",
+   "sel": "39.8",
    "pts": 47,
    "fx": [
     {
@@ -283,6 +353,13 @@
      "opp": "SUN",
      "home": false,
      "kickoff": "2026-11-08T14:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "LEE",
+     "home": true,
+     "kickoff": "2026-11-21T15:00:00Z",
      "diff": 3
     }
    ]
@@ -304,6 +381,13 @@
      "home": false,
      "kickoff": "2026-11-07T12:30:00Z",
      "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "IPS",
+     "home": true,
+     "kickoff": "2026-11-21T15:00:00Z",
+     "diff": 2
     }
    ]
   },
@@ -323,6 +407,13 @@
      "opp": "BOU",
      "home": true,
      "kickoff": "2026-11-08T14:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "TOT",
+     "home": false,
+     "kickoff": "2026-11-21T15:00:00Z",
      "diff": 3
     }
    ]
@@ -344,6 +435,13 @@
      "home": true,
      "kickoff": "2026-11-08T14:00:00Z",
      "diff": 4
+    },
+    {
+     "gw": 11,
+     "opp": "COV",
+     "home": false,
+     "kickoff": "2026-11-21T15:00:00Z",
+     "diff": 2
     }
    ]
   },
@@ -364,10 +462,17 @@
      "home": true,
      "kickoff": "2026-11-07T15:00:00Z",
      "diff": 3
+    },
+    {
+     "gw": 11,
+     "opp": "MCI",
+     "home": false,
+     "kickoff": "2026-11-21T12:30:00Z",
+     "diff": 5
     }
    ]
   }
  },
  "ok": true,
- "updated": "2026-11-03 23:06"
+ "updated": "2026-11-04 07:06"
 }
