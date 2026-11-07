@@ -61,14 +61,44 @@
  ],
  "pl": [
   {
-   "date": "2026-11-06T20:00Z",
-   "name": "COV @ EVE",
-   "home": "Everton",
-   "away": "Coventry City",
-   "hs": "3",
-   "as": "1",
-   "state": "post",
-   "detail": "FT"
+   "date": "2026-11-07T12:30Z",
+   "name": "TOT @ LEE",
+   "home": "Leeds United",
+   "away": "Tottenham Hotspur",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-07T15:00Z",
+   "name": "HUL @ ARS",
+   "home": "Arsenal",
+   "away": "Hull City",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-07T15:00Z",
+   "name": "NEW @ FUL",
+   "home": "Fulham",
+   "away": "Newcastle United",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-07T17:30Z",
+   "name": "MNC @ NFO",
+   "home": "Nottingham Forest",
+   "away": "Manchester City",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
   }
  ],
  "plTop": [
@@ -110,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-07 11:08"
+ "updated": "2026-11-07 12:03"
 }
