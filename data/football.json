@@ -95,10 +95,10 @@
    "name": "MNC @ NFO",
    "home": "Nottingham Forest",
    "away": "Manchester City",
-   "hs": "2",
+   "hs": "3",
    "as": "1",
-   "state": "in",
-   "detail": "71'"
+   "state": "post",
+   "detail": "FT"
   }
  ],
  "plTop": [
@@ -110,7 +110,7 @@
   },
   {
    "team": "Manchester City",
-   "gamesPlayed": "9",
+   "gamesPlayed": "10",
    "points": "21",
    "rank": "2"
   },
@@ -140,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-07 22:01"
+ "updated": "2026-11-07 23:04"
 }
