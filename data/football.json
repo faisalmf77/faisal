@@ -65,10 +65,10 @@
    "name": "TOT @ LEE",
    "home": "Leeds United",
    "away": "Tottenham Hotspur",
-   "hs": "0",
+   "hs": "1",
    "as": "0",
-   "state": "in",
-   "detail": "76'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-07T15:00Z",
@@ -77,8 +77,8 @@
    "away": "Hull City",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "8'"
   },
   {
    "date": "2026-11-07T15:00Z",
@@ -87,8 +87,8 @@
    "away": "Newcastle United",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "7'"
   },
   {
    "date": "2026-11-07T17:30Z",
@@ -140,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-07 17:07"
+ "updated": "2026-11-07 18:09"
 }
