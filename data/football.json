@@ -96,9 +96,9 @@
    "home": "Nottingham Forest",
    "away": "Manchester City",
    "hs": "2",
-   "as": "0",
+   "as": "1",
    "state": "in",
-   "detail": "34'"
+   "detail": "71'"
   }
  ],
  "plTop": [
@@ -140,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-07 21:06"
+ "updated": "2026-11-07 22:01"
 }
