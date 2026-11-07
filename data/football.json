@@ -95,10 +95,10 @@
    "name": "MNC @ NFO",
    "home": "Nottingham Forest",
    "away": "Manchester City",
-   "hs": "0",
+   "hs": "2",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "34'"
   }
  ],
  "plTop": [
@@ -140,5 +140,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-07 20:09"
+ "updated": "2026-11-07 21:06"
 }
