@@ -3,10 +3,10 @@
   {
    "sym": "^TASI.SR",
    "name": "Tadawul All Shares Index",
-   "price": 10050.11,
-   "chg": -0.45,
+   "price": 10016.92,
+   "chg": -0.78,
    "cur": "SAR",
-   "time": "11-08 14:52",
+   "time": "11-08 15:19",
    "label": "تاسي"
   },
   {
@@ -38,5 +38,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-08 15:07"
+ "updated": "2026-11-08 16:07"
 }
