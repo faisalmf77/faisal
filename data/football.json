@@ -105,10 +105,10 @@
    "name": "AVL @ MAN",
    "home": "Manchester United",
    "away": "Aston Villa",
-   "hs": "2",
+   "hs": "4",
    "as": "4",
-   "state": "in",
-   "detail": "72'"
+   "state": "post",
+   "detail": "FT"
   }
  ],
  "plTop": [
@@ -150,5 +150,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-08 21:03"
+ "updated": "2026-11-08 22:01"
 }
