@@ -67,28 +67,28 @@
    "away": "Brentford",
    "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "HT"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-08T14:00Z",
    "name": "LIV @ CRY",
    "home": "Crystal Palace",
    "away": "Liverpool",
-   "hs": "0",
-   "as": "1",
-   "state": "in",
-   "detail": "HT"
+   "hs": "1",
+   "as": "3",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-08T14:00Z",
    "name": "BOU @ IPS",
    "home": "Ipswich Town",
    "away": "AFC Bournemouth",
-   "hs": "0",
+   "hs": "1",
    "as": "2",
-   "state": "in",
-   "detail": "48'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-08T14:00Z",
@@ -97,8 +97,8 @@
    "away": "Chelsea",
    "hs": "1",
    "as": "0",
-   "state": "in",
-   "detail": "HT"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-08T16:30Z",
@@ -119,36 +119,36 @@
    "rank": "1"
   },
   {
-   "team": "Manchester City",
+   "team": "Brighton & Hove Albion",
    "gamesPlayed": "10",
-   "points": "21",
+   "points": "22",
    "rank": "2"
   },
   {
-   "team": "Brighton & Hove Albion",
-   "gamesPlayed": "9",
-   "points": "19",
+   "team": "Manchester City",
+   "gamesPlayed": "10",
+   "points": "21",
    "rank": "3"
   },
   {
-   "team": "Chelsea",
-   "gamesPlayed": "9",
-   "points": "16",
+   "team": "Liverpool",
+   "gamesPlayed": "10",
+   "points": "18",
    "rank": "4"
   },
   {
-   "team": "Everton",
+   "team": "Chelsea",
    "gamesPlayed": "10",
    "points": "16",
    "rank": "5"
   },
   {
-   "team": "Liverpool",
-   "gamesPlayed": "9",
-   "points": "15",
+   "team": "Everton",
+   "gamesPlayed": "10",
+   "points": "16",
    "rank": "6"
   }
  ],
  "ok": true,
- "updated": "2026-11-08 18:04"
+ "updated": "2026-11-08 19:07"
 }
