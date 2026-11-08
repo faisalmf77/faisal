@@ -129,7 +129,7 @@
    "news": "Unspecified injury - 75% chance of playing",
    "price": 5.7,
    "form": "1.4",
-   "sel": "24.8",
+   "sel": "24.7",
    "pts": 44,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-08 10:02"
+ "updated": "2026-11-08 11:09"
 }

@@ -61,44 +61,54 @@
  ],
  "pl": [
   {
-   "date": "2026-11-07T12:30Z",
-   "name": "TOT @ LEE",
-   "home": "Leeds United",
-   "away": "Tottenham Hotspur",
-   "hs": "1",
+   "date": "2026-11-08T14:00Z",
+   "name": "BRE @ BHA",
+   "home": "Brighton & Hove Albion",
+   "away": "Brentford",
+   "hs": "0",
    "as": "0",
-   "state": "post",
-   "detail": "FT"
+   "state": "pre",
+   "detail": "Scheduled"
   },
   {
-   "date": "2026-11-07T15:00Z",
-   "name": "HUL @ ARS",
-   "home": "Arsenal",
-   "away": "Hull City",
-   "hs": "1",
+   "date": "2026-11-08T14:00Z",
+   "name": "LIV @ CRY",
+   "home": "Crystal Palace",
+   "away": "Liverpool",
+   "hs": "0",
    "as": "0",
-   "state": "post",
-   "detail": "FT"
+   "state": "pre",
+   "detail": "Scheduled"
   },
   {
-   "date": "2026-11-07T15:00Z",
-   "name": "NEW @ FUL",
-   "home": "Fulham",
-   "away": "Newcastle United",
-   "hs": "1",
-   "as": "1",
-   "state": "post",
-   "detail": "FT"
+   "date": "2026-11-08T14:00Z",
+   "name": "BOU @ IPS",
+   "home": "Ipswich Town",
+   "away": "AFC Bournemouth",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
   },
   {
-   "date": "2026-11-07T17:30Z",
-   "name": "MNC @ NFO",
-   "home": "Nottingham Forest",
-   "away": "Manchester City",
-   "hs": "3",
-   "as": "1",
-   "state": "post",
-   "detail": "FT"
+   "date": "2026-11-08T14:00Z",
+   "name": "CHE @ SUN",
+   "home": "Sunderland",
+   "away": "Chelsea",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-08T16:30Z",
+   "name": "AVL @ MAN",
+   "home": "Manchester United",
+   "away": "Aston Villa",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
   }
  ],
  "plTop": [
@@ -140,5 +150,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-08 10:02"
+ "updated": "2026-11-08 11:09"
 }
