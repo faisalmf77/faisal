@@ -129,7 +129,7 @@
    "news": "Unspecified injury - 75% chance of playing",
    "price": 5.7,
    "form": "1.4",
-   "sel": "23.9",
+   "sel": "23.8",
    "pts": 44,
    "fx": [
     {
@@ -318,7 +318,7 @@
    "news": "",
    "price": 15.8,
    "form": "6.2",
-   "sel": "79.1",
+   "sel": "79.0",
    "pts": 70,
    "fx": [
     {
@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.7,
    "form": "2.8",
-   "sel": "33.1",
+   "sel": "33.0",
    "pts": 47,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-08 22:01"
+ "updated": "2026-11-08 23:03"
 }
