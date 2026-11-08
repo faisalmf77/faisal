@@ -67,8 +67,8 @@
    "away": "Brentford",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "5'"
   },
   {
    "date": "2026-11-08T14:00Z",
@@ -77,8 +77,8 @@
    "away": "Liverpool",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "5'"
   },
   {
    "date": "2026-11-08T14:00Z",
@@ -86,9 +86,9 @@
    "home": "Ipswich Town",
    "away": "AFC Bournemouth",
    "hs": "0",
-   "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "as": "1",
+   "state": "in",
+   "detail": "5'"
   },
   {
    "date": "2026-11-08T14:00Z",
@@ -97,8 +97,8 @@
    "away": "Chelsea",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "4'"
   },
   {
    "date": "2026-11-08T16:30Z",
@@ -150,5 +150,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-08 16:07"
+ "updated": "2026-11-08 17:05"
 }
