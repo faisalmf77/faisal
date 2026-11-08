@@ -124,12 +124,12 @@
   "391": {
    "web": "Gvardiol",
    "club": "MCI",
-   "status": "a",
-   "chance": null,
-   "news": "",
+   "status": "d",
+   "chance": 75,
+   "news": "Unspecified injury - 75% chance of playing",
    "price": 5.7,
    "form": "1.4",
-   "sel": "25.0",
+   "sel": "24.8",
    "pts": 44,
    "fx": [
     {
@@ -156,7 +156,7 @@
    "news": "",
    "price": 5.4,
    "form": "6.2",
-   "sel": "46.7",
+   "sel": "46.8",
    "pts": 69,
    "fx": [
     {
@@ -208,7 +208,7 @@
    "status": "a",
    "chance": null,
    "news": "",
-   "price": 11.7,
+   "price": 11.6,
    "form": "0.8",
    "sel": "20.6",
    "pts": 35,
@@ -291,7 +291,7 @@
    "news": "",
    "price": 6.3,
    "form": "2.6",
-   "sel": "47.3",
+   "sel": "47.4",
    "pts": 60,
    "fx": [
     {
@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.7,
    "form": "2.8",
-   "sel": "33.9",
+   "sel": "33.8",
    "pts": 47,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-07 23:04"
+ "updated": "2026-11-08 07:07"
 }
