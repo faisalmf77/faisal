@@ -39,10 +39,10 @@
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 96.2,
-   "chg": 0.4,
+   "price": 96.19,
+   "chg": 0.39,
    "cur": "USD",
-   "time": "11-13 14:56",
+   "time": "11-13 15:51",
    "label": "برنت"
   },
   {
@@ -92,5 +92,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-13 15:07"
+ "updated": "2026-11-13 16:02"
 }
