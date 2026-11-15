@@ -61,54 +61,74 @@
  ],
  "pl": [
   {
-   "date": "2026-11-08T14:00Z",
-   "name": "BRE @ BHA",
-   "home": "Brighton & Hove Albion",
-   "away": "Brentford",
-   "hs": "2",
+   "date": "2026-11-21T12:30Z",
+   "name": "FUL @ MNC",
+   "home": "Manchester City",
+   "away": "Fulham",
+   "hs": "0",
    "as": "0",
-   "state": "post",
-   "detail": "FT"
+   "state": "pre",
+   "detail": "Scheduled"
   },
   {
-   "date": "2026-11-08T14:00Z",
-   "name": "LIV @ CRY",
-   "home": "Crystal Palace",
-   "away": "Liverpool",
-   "hs": "1",
-   "as": "3",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-11-08T14:00Z",
-   "name": "BOU @ IPS",
-   "home": "Ipswich Town",
-   "away": "AFC Bournemouth",
-   "hs": "1",
-   "as": "2",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-11-08T14:00Z",
-   "name": "CHE @ SUN",
-   "home": "Sunderland",
-   "away": "Chelsea",
-   "hs": "1",
+   "date": "2026-11-21T15:00Z",
+   "name": "NFO @ BOU",
+   "home": "AFC Bournemouth",
+   "away": "Nottingham Forest",
+   "hs": "0",
    "as": "0",
-   "state": "post",
-   "detail": "FT"
+   "state": "pre",
+   "detail": "Scheduled"
   },
   {
-   "date": "2026-11-08T16:30Z",
-   "name": "AVL @ MAN",
-   "home": "Manchester United",
-   "away": "Aston Villa",
-   "hs": "4",
-   "as": "4",
-   "state": "post",
-   "detail": "FT"
+   "date": "2026-11-21T15:00Z",
+   "name": "SUN @ AVL",
+   "home": "Aston Villa",
+   "away": "Sunderland",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-21T15:00Z",
+   "name": "LEE @ CHE",
+   "home": "Chelsea",
+   "away": "Leeds United",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-21T15:00Z",
+   "name": "CRY @ COV",
+   "home": "Coventry City",
+   "away": "Crystal Palace",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-21T15:00Z",
+   "name": "IPS @ TOT",
+   "home": "Tottenham Hotspur",
+   "away": "Ipswich Town",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-21T17:30Z",
+   "name": "ARS @ NEW",
+   "home": "Newcastle United",
+   "away": "Arsenal",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
   }
  ],
  "plTop": [
@@ -150,5 +170,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-15 07:23"
+ "updated": "2026-11-15 08:20"
 }
