@@ -1,7 +1,7 @@
 {
  "ok": true,
- "date": "2026-11-15",
- "updated": "2026-11-15 06:22",
+ "date": "2026-11-16",
+ "updated": "2026-11-16 06:19",
  "jokes": [
   {
    "text": "واحد يبغى يودّي سيارته المغسلة ويبغى يمشي يسوي رياضة، فقال: خلني أروح مشي ومنها رياضة وأغسل سيارتي، عصفورين بحجر! وراح مشي للمغسلة وقال: أنا وش أسوي؟ ليش جيت بدون السيارة 😂",
@@ -49,15 +49,13 @@
    "url": "https://x.com/nz73p/status/2121729298919034971"
   }
  ],
- "sources_used": [
-  "X"
- ],
+ "sources_used": [],
  "fallback": true,
  "pool": {
-  "fresh_x": 3,
+  "fresh_x": 0,
   "fresh_web": 0,
   "fresh_builtin": 0,
-  "seen_30d": 110,
-  "blocked_other_page": 33
+  "seen_30d": 113,
+  "blocked_other_page": 36
  }
 }
