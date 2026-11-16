@@ -128,7 +128,7 @@
    "chance": 75,
    "news": "Unspecified injury - 75% chance of playing",
    "price": 5.6,
-   "form": "0.8",
+   "form": "1.0",
    "sel": "22.4",
    "pts": 44,
    "fx": [
@@ -317,7 +317,7 @@
    "chance": 100,
    "news": "",
    "price": 15.8,
-   "form": "6.2",
+   "form": "4.0",
    "sel": "78.8",
    "pts": 70,
    "fx": [
@@ -398,7 +398,7 @@
    "chance": null,
    "news": "",
    "price": 3.9,
-   "form": "1.8",
+   "form": "1.3",
    "sel": "9.8",
    "pts": 21,
    "fx": [
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-16 16:22"
+ "updated": "2026-11-16 17:21"
 }
