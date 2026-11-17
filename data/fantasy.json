@@ -155,7 +155,7 @@
    "chance": null,
    "news": "",
    "price": 5.5,
-   "form": "5.5",
+   "form": "5.3",
    "sel": "48.0",
    "pts": 75,
    "fx": [
@@ -209,7 +209,7 @@
    "chance": null,
    "news": "",
    "price": 11.6,
-   "form": "3.2",
+   "form": "4.0",
    "sel": "20.3",
    "pts": 45,
    "fx": [
@@ -236,7 +236,7 @@
    "chance": null,
    "news": "",
    "price": 7.9,
-   "form": "3.2",
+   "form": "1.7",
    "sel": "19.0",
    "pts": 46,
    "fx": [
@@ -290,7 +290,7 @@
    "chance": null,
    "news": "",
    "price": 6.3,
-   "form": "4.2",
+   "form": "4.0",
    "sel": "48.2",
    "pts": 70,
    "fx": [
@@ -425,7 +425,7 @@
    "chance": null,
    "news": "",
    "price": 4.3,
-   "form": "0.5",
+   "form": "0.3",
    "sel": "5.5",
    "pts": 4,
    "fx": [
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-17 15:24"
+ "updated": "2026-11-17 16:22"
 }
