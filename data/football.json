@@ -1,12 +1,12 @@
 {
  "nassr": {
   "last": {
-   "date": "2026-10-29T18:00Z",
-   "name": "KHO @ NSR",
-   "home": "Al Nassr",
-   "away": "Al Kholood",
-   "hs": "5",
-   "as": "3",
+   "date": "2026-11-20T17:30Z",
+   "name": "NSR @ AHL",
+   "home": "Al Ahli",
+   "away": "Al Nassr",
+   "hs": "3",
+   "as": "1",
    "state": "post",
    "detail": "FT"
   },
@@ -22,7 +22,7 @@
   },
   "pos": {
    "team": "Al Nassr",
-   "gamesPlayed": "11",
+   "gamesPlayed": "12",
    "points": "28",
    "rank": "3"
   }
@@ -42,20 +42,20 @@
   },
   {
    "team": "Al Nassr",
-   "gamesPlayed": "11",
+   "gamesPlayed": "12",
    "points": "28",
    "rank": "3"
+  },
+  {
+   "team": "Al Ahli",
+   "gamesPlayed": "12",
+   "points": "24",
+   "rank": "4"
   },
   {
    "team": "Al Ittihad",
    "gamesPlayed": "11",
    "points": "24",
-   "rank": "4"
-  },
-  {
-   "team": "Neom SC",
-   "gamesPlayed": "12",
-   "points": "22",
    "rank": "5"
   }
  ],
@@ -170,5 +170,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-20 22:25"
+ "updated": "2026-11-20 23:16"
 }
