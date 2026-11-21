@@ -66,9 +66,9 @@
    "home": "Manchester City",
    "away": "Fulham",
    "hs": "0",
-   "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "as": "1",
+   "state": "in",
+   "detail": "HT"
   },
   {
    "date": "2026-11-21T15:00Z",
@@ -170,5 +170,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-21 15:16"
+ "updated": "2026-11-21 16:21"
 }
