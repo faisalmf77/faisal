@@ -127,15 +127,15 @@
    "away": "Arsenal",
    "hs": "2",
    "as": "2",
-   "state": "in",
-   "detail": "90'+5'"
+   "state": "post",
+   "detail": "FT"
   }
  ],
  "plTop": [
   {
    "team": "Arsenal",
-   "gamesPlayed": "10",
-   "points": "27",
+   "gamesPlayed": "11",
+   "points": "28",
    "rank": "1"
   },
   {
@@ -170,5 +170,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-21 22:22"
+ "updated": "2026-11-21 23:24"
 }
