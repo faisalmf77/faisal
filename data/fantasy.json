@@ -1,8 +1,8 @@
 {
  "next": {
-  "id": 11,
-  "name": "Gameweek 11",
-  "deadline": "2026-11-21T11:00:00Z"
+  "id": 12,
+  "name": "Gameweek 12",
+  "deadline": "2026-11-27T18:30:00Z"
  },
  "events": [
   {
@@ -74,22 +74,22 @@
    "chance": null,
    "news": "",
    "price": 6.3,
-   "form": "6.0",
+   "form": "4.5",
    "sel": "47.8",
    "pts": 60,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "NEW",
-     "home": false,
-     "kickoff": "2026-11-21T17:30:00Z",
-     "diff": 3
-    },
     {
      "gw": 12,
      "opp": "MCI",
      "home": true,
      "kickoff": "2026-11-29T16:30:00Z",
+     "diff": 4
+    },
+    {
+     "gw": 13,
+     "opp": "BRE",
+     "home": false,
+     "kickoff": "2026-12-02T20:15:00Z",
      "diff": 4
     }
    ]
@@ -101,22 +101,22 @@
    "chance": 100,
    "news": "",
    "price": 5.9,
-   "form": "4.3",
+   "form": "3.2",
    "sel": "48.6",
    "pts": 57,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "NEW",
-     "home": false,
-     "kickoff": "2026-11-21T17:30:00Z",
-     "diff": 3
-    },
     {
      "gw": 12,
      "opp": "MCI",
      "home": true,
      "kickoff": "2026-11-29T16:30:00Z",
+     "diff": 4
+    },
+    {
+     "gw": 13,
+     "opp": "BRE",
+     "home": false,
+     "kickoff": "2026-12-02T20:15:00Z",
      "diff": 4
     }
    ]
@@ -128,23 +128,23 @@
    "chance": 100,
    "news": "",
    "price": 5.6,
-   "form": "1.0",
-   "sel": "20.4",
+   "form": "0.8",
+   "sel": "20.5",
    "pts": 44,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "FUL",
-     "home": true,
-     "kickoff": "2026-11-21T12:30:00Z",
-     "diff": 2
-    },
     {
      "gw": 12,
      "opp": "ARS",
      "home": false,
      "kickoff": "2026-11-29T16:30:00Z",
      "diff": 5
+    },
+    {
+     "gw": 13,
+     "opp": "LEE",
+     "home": true,
+     "kickoff": "2026-12-02T19:30:00Z",
+     "diff": 3
     }
    ]
   },
@@ -155,23 +155,23 @@
    "chance": null,
    "news": "",
    "price": 5.5,
-   "form": "5.3",
+   "form": "4.0",
    "sel": "49.8",
    "pts": 75,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "HUL",
-     "home": false,
-     "kickoff": "2026-11-22T14:00:00Z",
-     "diff": 2
-    },
     {
      "gw": 12,
      "opp": "NEW",
      "home": true,
      "kickoff": "2026-11-29T14:05:00Z",
      "diff": 3
+    },
+    {
+     "gw": 13,
+     "opp": "BOU",
+     "home": false,
+     "kickoff": "2026-12-02T20:15:00Z",
+     "diff": 4
     }
    ]
   },
@@ -182,23 +182,23 @@
    "chance": null,
    "news": "",
    "price": 4.2,
-   "form": "0.3",
+   "form": "0.2",
    "sel": "1.3",
    "pts": 9,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "BOU",
-     "home": false,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 4
-    },
     {
      "gw": 12,
      "opp": "CHE",
      "home": true,
      "kickoff": "2026-11-27T20:00:00Z",
      "diff": 4
+    },
+    {
+     "gw": 13,
+     "opp": "HUL",
+     "home": false,
+     "kickoff": "2026-12-02T19:30:00Z",
+     "diff": 2
     }
    ]
   },
@@ -209,22 +209,22 @@
    "chance": null,
    "news": "",
    "price": 11.6,
-   "form": "4.0",
-   "sel": "19.9",
+   "form": "3.0",
+   "sel": "20.0",
    "pts": 45,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "LIV",
-     "home": false,
-     "kickoff": "2026-11-22T16:30:00Z",
-     "diff": 4
-    },
     {
      "gw": 12,
      "opp": "BRE",
      "home": true,
      "kickoff": "2026-11-28T15:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 13,
+     "opp": "NEW",
+     "home": false,
+     "kickoff": "2026-12-02T20:15:00Z",
      "diff": 3
     }
    ]
@@ -236,22 +236,22 @@
    "chance": null,
    "news": "",
    "price": 7.8,
-   "form": "1.7",
+   "form": "1.2",
    "sel": "17.9",
    "pts": 46,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "LIV",
-     "home": false,
-     "kickoff": "2026-11-22T16:30:00Z",
-     "diff": 4
-    },
     {
      "gw": 12,
      "opp": "BRE",
      "home": true,
      "kickoff": "2026-11-28T15:00:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 13,
+     "opp": "NEW",
+     "home": false,
+     "kickoff": "2026-12-02T20:15:00Z",
      "diff": 3
     }
    ]
@@ -263,22 +263,22 @@
    "chance": null,
    "news": "",
    "price": 8.2,
-   "form": "4.0",
-   "sel": "54.5",
+   "form": "3.0",
+   "sel": "54.6",
    "pts": 52,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "LEE",
-     "home": true,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 3
-    },
     {
      "gw": 12,
      "opp": "NFO",
      "home": false,
      "kickoff": "2026-11-27T20:00:00Z",
+     "diff": 2
+    },
+    {
+     "gw": 13,
+     "opp": "CRY",
+     "home": true,
+     "kickoff": "2026-12-02T19:30:00Z",
      "diff": 2
     }
    ]
@@ -290,23 +290,23 @@
    "chance": null,
    "news": "",
    "price": 6.3,
-   "form": "4.0",
-   "sel": "49.4",
+   "form": "3.0",
+   "sel": "49.3",
    "pts": 70,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "HUL",
-     "home": false,
-     "kickoff": "2026-11-22T14:00:00Z",
-     "diff": 2
-    },
     {
      "gw": 12,
      "opp": "NEW",
      "home": true,
      "kickoff": "2026-11-29T14:05:00Z",
      "diff": 3
+    },
+    {
+     "gw": 13,
+     "opp": "BOU",
+     "home": false,
+     "kickoff": "2026-12-02T20:15:00Z",
+     "diff": 4
     }
    ]
   },
@@ -317,23 +317,23 @@
    "chance": 100,
    "news": "",
    "price": 15.8,
-   "form": "4.0",
+   "form": "3.0",
    "sel": "78.9",
    "pts": 70,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "FUL",
-     "home": true,
-     "kickoff": "2026-11-21T12:30:00Z",
-     "diff": 2
-    },
     {
      "gw": 12,
      "opp": "ARS",
      "home": false,
      "kickoff": "2026-11-29T16:30:00Z",
      "diff": 5
+    },
+    {
+     "gw": 13,
+     "opp": "LEE",
+     "home": true,
+     "kickoff": "2026-12-02T19:30:00Z",
+     "diff": 3
     }
    ]
   },
@@ -349,17 +349,17 @@
    "pts": 47,
    "fx": [
     {
-     "gw": 11,
-     "opp": "LEE",
-     "home": true,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 3
-    },
-    {
      "gw": 12,
      "opp": "NFO",
      "home": false,
      "kickoff": "2026-11-27T20:00:00Z",
+     "diff": 2
+    },
+    {
+     "gw": 13,
+     "opp": "CRY",
+     "home": true,
+     "kickoff": "2026-12-02T19:30:00Z",
      "diff": 2
     }
    ]
@@ -376,18 +376,18 @@
    "pts": 0,
    "fx": [
     {
-     "gw": 11,
-     "opp": "IPS",
-     "home": true,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 2
-    },
-    {
      "gw": 12,
      "opp": "SUN",
      "home": false,
      "kickoff": "2026-11-29T14:05:00Z",
      "diff": 3
+    },
+    {
+     "gw": 13,
+     "opp": "FUL",
+     "home": true,
+     "kickoff": "2026-12-03T20:00:00Z",
+     "diff": 2
     }
    ]
   },
@@ -398,23 +398,23 @@
    "chance": null,
    "news": "",
    "price": 3.9,
-   "form": "1.3",
+   "form": "1.0",
    "sel": "9.6",
    "pts": 21,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "TOT",
-     "home": false,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 3
-    },
     {
      "gw": 12,
      "opp": "AVL",
      "home": true,
      "kickoff": "2026-11-28T17:30:00Z",
      "diff": 3
+    },
+    {
+     "gw": 13,
+     "opp": "COV",
+     "home": false,
+     "kickoff": "2026-12-01T20:00:00Z",
+     "diff": 2
     }
    ]
   },
@@ -425,23 +425,23 @@
    "chance": null,
    "news": "",
    "price": 4.3,
-   "form": "0.3",
-   "sel": "5.5",
+   "form": "0.2",
+   "sel": "5.4",
    "pts": 4,
    "fx": [
-    {
-     "gw": 11,
-     "opp": "COV",
-     "home": false,
-     "kickoff": "2026-11-21T15:00:00Z",
-     "diff": 2
-    },
     {
      "gw": 12,
      "opp": "HUL",
      "home": true,
      "kickoff": "2026-11-29T14:05:00Z",
      "diff": 2
+    },
+    {
+     "gw": 13,
+     "opp": "CHE",
+     "home": false,
+     "kickoff": "2026-12-02T19:30:00Z",
+     "diff": 4
     }
    ]
   },
@@ -457,22 +457,22 @@
    "pts": 0,
    "fx": [
     {
-     "gw": 11,
-     "opp": "MCI",
-     "home": false,
-     "kickoff": "2026-11-21T12:30:00Z",
-     "diff": 5
-    },
-    {
      "gw": 12,
      "opp": "BOU",
      "home": true,
      "kickoff": "2026-11-29T14:05:00Z",
+     "diff": 3
+    },
+    {
+     "gw": 13,
+     "opp": "TOT",
+     "home": false,
+     "kickoff": "2026-12-03T20:00:00Z",
      "diff": 3
     }
    ]
   }
  },
  "ok": true,
- "updated": "2026-11-21 14:24"
+ "updated": "2026-11-21 15:16"
 }
