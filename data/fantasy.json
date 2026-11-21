@@ -263,9 +263,9 @@
    "chance": null,
    "news": "",
    "price": 8.2,
-   "form": "3.2",
+   "form": "4.0",
    "sel": "54.6",
-   "pts": 53,
+   "pts": 56,
    "fx": [
     {
      "gw": 12,
@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.6,
    "form": "0.0",
-   "sel": "28.7",
+   "sel": "28.6",
    "pts": 47,
    "fx": [
     {
@@ -398,9 +398,9 @@
    "chance": null,
    "news": "",
    "price": 3.9,
-   "form": "1.2",
+   "form": "1.0",
    "sel": "9.6",
-   "pts": 22,
+   "pts": 21,
    "fx": [
     {
      "gw": 12,
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-21 18:15"
+ "updated": "2026-11-21 19:17"
 }
