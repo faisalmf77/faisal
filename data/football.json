@@ -77,8 +77,8 @@
    "away": "Nottingham Forest",
    "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "59'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-21T15:00Z",
@@ -87,8 +87,8 @@
    "away": "Sunderland",
    "hs": "0",
    "as": "0",
-   "state": "in",
-   "detail": "60'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-21T15:00Z",
@@ -96,19 +96,19 @@
    "home": "Chelsea",
    "away": "Leeds United",
    "hs": "1",
-   "as": "2",
-   "state": "in",
-   "detail": "56'"
+   "as": "4",
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-21T15:00Z",
    "name": "CRY @ COV",
    "home": "Coventry City",
    "away": "Crystal Palace",
-   "hs": "2",
+   "hs": "3",
    "as": "2",
-   "state": "in",
-   "detail": "56'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-21T15:00Z",
@@ -117,8 +117,8 @@
    "away": "Ipswich Town",
    "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "59'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-21T17:30Z",
@@ -151,24 +151,24 @@
    "rank": "3"
   },
   {
-   "team": "Liverpool",
-   "gamesPlayed": "10",
+   "team": "AFC Bournemouth",
+   "gamesPlayed": "11",
    "points": "18",
    "rank": "4"
   },
   {
-   "team": "Chelsea",
+   "team": "Liverpool",
    "gamesPlayed": "10",
-   "points": "16",
+   "points": "18",
    "rank": "5"
   },
   {
-   "team": "Everton",
-   "gamesPlayed": "10",
-   "points": "16",
+   "team": "Leeds United",
+   "gamesPlayed": "11",
+   "points": "17",
    "rank": "6"
   }
  ],
  "ok": true,
- "updated": "2026-11-21 19:17"
+ "updated": "2026-11-21 20:23"
 }
