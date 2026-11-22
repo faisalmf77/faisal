@@ -65,10 +65,10 @@
    "name": "BHA @ HUL",
    "home": "Hull City",
    "away": "Brighton & Hove Albion",
-   "hs": "0",
+   "hs": "2",
    "as": "0",
-   "state": "in",
-   "detail": "61'"
+   "state": "post",
+   "detail": "FT"
   },
   {
    "date": "2026-11-22T16:30Z",
@@ -90,7 +90,7 @@
   },
   {
    "team": "Brighton & Hove Albion",
-   "gamesPlayed": "10",
+   "gamesPlayed": "11",
    "points": "22",
    "rank": "2"
   },
@@ -120,5 +120,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-22 18:23"
+ "updated": "2026-11-22 19:16"
 }
