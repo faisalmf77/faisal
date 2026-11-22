@@ -67,8 +67,8 @@
    "away": "Brighton & Hove Albion",
    "hs": "0",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "22'"
   },
   {
    "date": "2026-11-22T16:30Z",
@@ -120,5 +120,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-22 16:16"
+ "updated": "2026-11-22 17:23"
 }
