@@ -51,7 +51,7 @@
    "price": 26.3,
    "chg": -0.68,
    "cur": "SAR",
-   "time": "11-22 10:01",
+   "time": "11-22 11:07",
    "label": "أرامكو"
   },
   {
@@ -66,19 +66,19 @@
   {
    "sym": "^TASI.SR",
    "name": "Tadawul All Shares Index",
-   "price": 10026.57,
-   "chg": -1.3,
+   "price": 9978.09,
+   "chg": -1.78,
    "cur": "SAR",
-   "time": "11-22 10:01",
+   "time": "11-22 11:07",
    "label": "تاسي"
   },
   {
    "sym": "1120.SR",
    "name": "Al Rajhi Bank",
-   "price": 61.8,
-   "chg": -1.36,
+   "price": 61.25,
+   "chg": -2.23,
    "cur": "SAR",
-   "time": "11-22 10:01",
+   "time": "11-22 11:07",
    "label": "الراجحي"
   },
   {
@@ -92,5 +92,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-22 10:16"
+ "updated": "2026-11-22 11:22"
 }
