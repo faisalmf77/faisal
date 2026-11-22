@@ -75,7 +75,7 @@
    "news": "Shoulder injury - 75% chance of playing",
    "price": 6.3,
    "form": "4.8",
-   "sel": "47.5",
+   "sel": "47.4",
    "pts": 61,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-22 12:22"
+ "updated": "2026-11-22 13:21"
 }
