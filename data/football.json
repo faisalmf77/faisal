@@ -101,14 +101,14 @@
    "rank": "3"
   },
   {
-   "team": "AFC Bournemouth",
+   "team": "Liverpool",
    "gamesPlayed": "11",
-   "points": "18",
+   "points": "21",
    "rank": "4"
   },
   {
-   "team": "Liverpool",
-   "gamesPlayed": "10",
+   "team": "AFC Bournemouth",
+   "gamesPlayed": "11",
    "points": "18",
    "rank": "5"
   },
@@ -120,5 +120,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-22 21:23"
+ "updated": "2026-11-22 22:22"
 }
