@@ -48,10 +48,10 @@
   {
    "sym": "2222.SR",
    "name": "Saudi Arabian Oil Co.",
-   "price": 26.34,
-   "chg": -0.53,
+   "price": 26.26,
+   "chg": -0.83,
    "cur": "SAR",
-   "time": "11-22 14:59",
+   "time": "11-22 15:19",
    "label": "أرامكو"
   },
   {
@@ -66,19 +66,19 @@
   {
    "sym": "^TASI.SR",
    "name": "Tadawul All Shares Index",
-   "price": 9981.19,
-   "chg": -1.75,
+   "price": 9960.44,
+   "chg": -1.95,
    "cur": "SAR",
-   "time": "11-22 15:00",
+   "time": "11-22 15:20",
    "label": "تاسي"
   },
   {
    "sym": "1120.SR",
    "name": "Al Rajhi Bank",
-   "price": 61.2,
-   "chg": -2.31,
+   "price": 61.1,
+   "chg": -2.47,
    "cur": "SAR",
-   "time": "11-22 14:59",
+   "time": "11-22 15:19",
    "label": "الراجحي"
   },
   {
@@ -92,5 +92,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-22 15:20"
+ "updated": "2026-11-22 16:16"
 }
