@@ -75,10 +75,10 @@
    "name": "MAN @ LIV",
    "home": "Liverpool",
    "away": "Manchester United",
-   "hs": "0",
+   "hs": "2",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "HT"
   }
  ],
  "plTop": [
@@ -120,5 +120,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-22 19:16"
+ "updated": "2026-11-22 20:20"
 }
