@@ -75,7 +75,7 @@
    "news": "Shoulder injury - 50% chance of playing",
    "price": 6.3,
    "form": "4.0",
-   "sel": "46.5",
+   "sel": "46.4",
    "pts": 61,
    "fx": [
     {
@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.6,
    "form": "0.0",
-   "sel": "28.0",
+   "sel": "27.9",
    "pts": 47,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-23 21:15"
+ "updated": "2026-11-23 22:15"
 }
