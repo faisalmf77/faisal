@@ -71,8 +71,8 @@
    "web": "Raya",
    "club": "ARS",
    "status": "d",
-   "chance": 75,
-   "news": "Shoulder injury - 75% chance of playing",
+   "chance": 50,
+   "news": "Shoulder injury - 50% chance of playing",
    "price": 6.3,
    "form": "4.0",
    "sel": "46.6",
@@ -318,7 +318,7 @@
    "news": "",
    "price": 15.8,
    "form": "2.0",
-   "sel": "78.1",
+   "sel": "78.0",
    "pts": 72,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-23 17:17"
+ "updated": "2026-11-23 18:24"
 }
