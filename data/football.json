@@ -61,24 +61,14 @@
  ],
  "pl": [
   {
-   "date": "2026-11-22T14:00Z",
-   "name": "BHA @ HUL",
-   "home": "Hull City",
-   "away": "Brighton & Hove Albion",
-   "hs": "2",
+   "date": "2026-11-23T20:00Z",
+   "name": "EVE @ BRE",
+   "home": "Brentford",
+   "away": "Everton",
+   "hs": "0",
    "as": "0",
-   "state": "post",
-   "detail": "FT"
-  },
-  {
-   "date": "2026-11-22T16:30Z",
-   "name": "MAN @ LIV",
-   "home": "Liverpool",
-   "away": "Manchester United",
-   "hs": "4",
-   "as": "0",
-   "state": "post",
-   "detail": "FT"
+   "state": "pre",
+   "detail": "Scheduled"
   }
  ],
  "plTop": [
@@ -120,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-23 10:17"
+ "updated": "2026-11-23 11:20"
 }

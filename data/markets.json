@@ -3,19 +3,19 @@
   {
    "sym": "^TASI.SR",
    "name": "Tadawul All Shares Index",
-   "price": 10012.74,
-   "chg": 0.53,
+   "price": 10044.53,
+   "chg": 0.84,
    "cur": "SAR",
-   "time": "11-23 10:02",
+   "time": "11-23 11:05",
    "label": "تاسي"
   },
   {
    "sym": "GC=F",
    "name": "Gold Dec 26",
-   "price": 3628.4,
-   "chg": 3.21,
+   "price": 3604.0,
+   "chg": 2.52,
    "cur": "USD",
-   "time": "11-23 10:07",
+   "time": "11-23 11:10",
    "label": "الذهب (أونصة)"
   },
   {
@@ -24,7 +24,7 @@
    "price": 89.49,
    "chg": -3.33,
    "cur": "USD",
-   "time": "11-23 10:07",
+   "time": "11-23 11:10",
    "label": "برنت"
   },
   {
@@ -33,10 +33,10 @@
    "price": 3.7521,
    "chg": null,
    "cur": "SAR",
-   "time": "11-23 10:12",
+   "time": "11-23 11:15",
    "label": "الدولار/ريال"
   }
  ],
  "ok": true,
- "updated": "2026-11-23 10:17"
+ "updated": "2026-11-23 11:20"
 }
