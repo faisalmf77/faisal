@@ -1,55 +1,5 @@
 {
- "items": [
-  {
-   "title": "سياسي / سمو ولي العهد يستقبل رئيس وزراء جمهورية بلغاريا ويعقدان جلسة مباحثات رسمية",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1aZDJlTU9YVjhrMWRqZm0zVDFRLVV3WjVjcEE3Y0dYUmVtbDktM1BXQUFRRXpWWEZuSEVKMExSYVExT0JQd0E?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "22 Nov 2026"
-  },
-  {
-   "title": "عام / الأمير عبدالعزيز بن سعود يستقبل عددًا من أهالي منطقة حائل",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBfWF95RjlzSHdhTWdvVFVzVVoyX09qSHZ6RmV5M29jb1IyejhDR0tqSUxoenBKNGk1ckxRWGtmN2tOWkQxQXc?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "22 Nov 2026"
-  },
-  {
-   "title": "عام / رئيس وزراء بلغاريا يصل إلى الرياض وفي مقدمة مستقبليه نائب أمير المنطقة",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0tRGRWVlltYkprZUtlTk1kcWNpTk1UWm1PVGc2WlM1VVczQV91eGxMc1Z0ekctSVVsV0pWVVFzeGNDTmNxSXc?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "22 Nov 2026"
-  },
-  {
-   "title": "اقتصادي / \"زاتكا\" تدعو المنشآت الخاضعة للضريبة الانتقائية إلى تقديم إقراراتها عن شهري سبتمبر وأكتوبر 2026م",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBzLWFlc0NScEtQdW1nY2RJU3N4cTJ5Wm92WWE3cmVTeWdXX1ZUU19ac2lCNjFhTUlrYjFBUUYxYm13UXUwLVE?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "21 Nov 2026"
-  },
-  {
-   "title": "سياحة وترفيه / أمانة منطقة جازان تهيئ 737 مرفقًا سياحيًا وترفيهيًا لاستقبال الزوار خلال إجازة الخريف",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE92UzNyR3l6Y1FPQmUzeHlJOERkYXY2M2hhSnVzZ3A5ZkxRM1QwOE5LTmpQVkx4bmlWeXVodlJELXRsOXN4ZWc?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "22 Nov 2026"
-  },
-  {
-   "title": "رياضي / ميدان الفروسية بالأحساء يقيم الحفل الرابع لسباق الخيل للموسم 2026",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1UTnlIRXZ0bzctNlJXcks2WktFVEFCSDdnbVhqTlRuYUZ2OHdvamJwdnNYMDFlTEhRM2x0by1HV0ZNWHlCTUE?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "21 Nov 2026"
-  },
-  {
-   "title": "عام / نيابة عن أمير منطقة الرياض.. نائب أمير المنطقة يُشرّف حفل سفارة عُمان لدى المملكة بمناسبة اليوم الوطني لبلادها",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1udVpaVlJ0dmVSajJUMWFkT1ExS2Y3NzNDQS10Y0VWWDlHYVVkdHg0dzRpUlRYYkgzcE9kVzBPTF81a0hqZ2c?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "22 Nov 2026"
-  },
-  {
-   "title": "ثقافي / فعالية \"يوم الشنّة\" تشهد إقبالًا من الأهالي والزوار في العلا",
-   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBneEwxWnFOY1NsRDZOdFFGTDkzWTZzenh3TzFsdFZhcEtsNlpBWHhkc1pMemFldkxkX2lmSDJBTnVKdlg1LXFRMEpB?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "21 Nov 2026"
-  }
- ],
- "note": "عبر فهرس أخبار Google لموقع واس (spa.gov.sa لا يوفر RSS)",
- "ok": true,
- "updated": "2026-11-23 08:22"
+ "ok": false,
+ "error": "HTTP Error 429: Too Many Requests",
+ "updated": "2026-11-23 09:21"
 }
