@@ -61,14 +61,14 @@
  ],
  "pl": [
   {
-   "date": "2026-11-23T20:00Z",
-   "name": "EVE @ BRE",
-   "home": "Brentford",
-   "away": "Everton",
-   "hs": "4",
+   "date": "2026-11-27T20:00Z",
+   "name": "CHE @ NFO",
+   "home": "Nottingham Forest",
+   "away": "Chelsea",
+   "hs": "0",
    "as": "0",
-   "state": "post",
-   "detail": "FT"
+   "state": "pre",
+   "detail": "Scheduled"
   }
  ],
  "plTop": [
@@ -110,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-24 07:17"
+ "updated": "2026-11-24 08:16"
 }
