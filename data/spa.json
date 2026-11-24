@@ -1,12 +1,6 @@
 {
  "items": [
   {
-   "title": "سياسي / سمو ولي العهد يستقبل رئيس وزراء جمهورية بلغاريا ويعقدان جلسة مباحثات رسمية",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1aZDJlTU9YVjhrMWRqZm0zVDFRLVV3WjVjcEE3Y0dYUmVtbDktM1BXQUFRRXpWWEZuSEVKMExSYVExT0JQd0E?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "date": "23 Nov 2026"
-  },
-  {
    "title": "عام / أمير الحدود الشمالية يستقبل أهالي محافظة طريف",
    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1KOEdtWHpNRkpwUjgzSE55RHBPeGZ3MUppckNndkNhWEFVUHlUaHp3NmpsSE5vRFUyOUJSb2NmemRLSG9uZ3c?oc=5",
    "source": "وكالة الأنباء السعودية",
@@ -15,6 +9,12 @@
   {
    "title": "سياحة وترفيه / إجازة الخريف تنشّط الرحلات البرية في منطقة الحدود الشمالية",
    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9sTUctSGVLLWNqQVhpUXBHZkw2Z2xNLU1WVzJnMXBhNXllcjlCdkpDRmRnSE55dUg3aGx1d3FmZjhuTVpWdUxYd2FR?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "date": "23 Nov 2026"
+  },
+  {
+   "title": "سياسي / سمو ولي العهد يستقبل رئيس وزراء جمهورية بلغاريا ويعقدان جلسة مباحثات رسمية",
+   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1aZDJlTU9YVjhrMWRqZm0zVDFRLVV3WjVjcEE3Y0dYUmVtbDktM1BXQUFRRXpWWEZuSEVKMExSYVExT0JQd0E?oc=5",
    "source": "وكالة الأنباء السعودية",
    "date": "23 Nov 2026"
   },
@@ -51,5 +51,5 @@
  ],
  "note": "عبر فهرس أخبار Google لموقع واس (spa.gov.sa لا يوفر RSS)",
  "ok": true,
- "updated": "2026-11-24 09:22"
+ "updated": "2026-11-24 10:19"
 }
