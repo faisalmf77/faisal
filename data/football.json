@@ -65,10 +65,10 @@
    "name": "EVE @ BRE",
    "home": "Brentford",
    "away": "Everton",
-   "hs": "0",
+   "hs": "4",
    "as": "0",
-   "state": "in",
-   "detail": "19'"
+   "state": "post",
+   "detail": "FT"
   }
  ],
  "plTop": [
@@ -103,12 +103,12 @@
    "rank": "5"
   },
   {
-   "team": "Leeds United",
+   "team": "Brentford",
    "gamesPlayed": "11",
    "points": "17",
    "rank": "6"
   }
  ],
  "ok": true,
- "updated": "2026-11-23 23:19"
+ "updated": "2026-11-24 07:17"
 }
