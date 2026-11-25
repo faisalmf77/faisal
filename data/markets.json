@@ -3,28 +3,28 @@
   {
    "sym": "^TASI.SR",
    "name": "Tadawul All Shares Index",
-   "price": 9925.48,
-   "chg": -0.52,
+   "price": 9885.64,
+   "chg": -0.92,
    "cur": "SAR",
-   "time": "11-25 11:09",
+   "time": "11-25 12:06",
    "label": "تاسي"
   },
   {
    "sym": "GC=F",
    "name": "Gold Dec 26",
-   "price": 3520.9,
-   "chg": -1.15,
+   "price": 3560.4,
+   "chg": -0.04,
    "cur": "USD",
-   "time": "11-25 11:14",
+   "time": "11-25 12:11",
    "label": "الذهب (أونصة)"
   },
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 87.16,
-   "chg": -4.64,
+   "price": 88.25,
+   "chg": -3.45,
    "cur": "USD",
-   "time": "11-25 11:14",
+   "time": "11-25 12:11",
    "label": "برنت"
   },
   {
@@ -38,5 +38,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-25 11:24"
+ "updated": "2026-11-25 12:21"
 }
