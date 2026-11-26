@@ -39,19 +39,19 @@
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 90.83,
-   "chg": -4.0,
+   "price": 91.26,
+   "chg": -3.54,
    "cur": "USD",
-   "time": "11-26 15:04",
+   "time": "11-26 16:13",
    "label": "برنت"
   },
   {
    "sym": "2222.SR",
    "name": "Saudi Arabian Oil Co.",
-   "price": 26.36,
-   "chg": 0.38,
+   "price": 26.38,
+   "chg": 0.46,
    "cur": "SAR",
-   "time": "11-26 14:59",
+   "time": "11-26 15:19",
    "label": "أرامكو"
   },
   {
@@ -66,19 +66,19 @@
   {
    "sym": "^TASI.SR",
    "name": "Tadawul All Shares Index",
-   "price": 9914.27,
-   "chg": 0.0,
+   "price": 9923.65,
+   "chg": 0.1,
    "cur": "SAR",
-   "time": "11-26 15:00",
+   "time": "11-26 15:20",
    "label": "تاسي"
   },
   {
    "sym": "1120.SR",
    "name": "Al Rajhi Bank",
-   "price": 60.45,
-   "chg": 0.17,
+   "price": 60.5,
+   "chg": 0.25,
    "cur": "SAR",
-   "time": "11-26 14:59",
+   "time": "11-26 15:19",
    "label": "الراجحي"
   },
   {
@@ -92,5 +92,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-26 15:15"
+ "updated": "2026-11-26 16:23"
 }
