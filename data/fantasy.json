@@ -73,9 +73,9 @@
    "status": "d",
    "chance": 50,
    "news": "Shoulder injury - 50% chance of playing",
-   "price": 6.3,
+   "price": 6.2,
    "form": "4.0",
-   "sel": "45.3",
+   "sel": "45.1",
    "pts": 61,
    "fx": [
     {
@@ -102,7 +102,7 @@
    "news": "",
    "price": 5.9,
    "form": "4.3",
-   "sel": "48.2",
+   "sel": "48.1",
    "pts": 58,
    "fx": [
     {
@@ -129,7 +129,7 @@
    "news": "",
    "price": 5.5,
    "form": "1.0",
-   "sel": "19.4",
+   "sel": "19.3",
    "pts": 45,
    "fx": [
     {
@@ -237,7 +237,7 @@
    "news": "",
    "price": 7.8,
    "form": "1.3",
-   "sel": "17.4",
+   "sel": "17.3",
    "pts": 47,
    "fx": [
     {
@@ -318,7 +318,7 @@
    "news": "",
    "price": 15.8,
    "form": "2.0",
-   "sel": "77.4",
+   "sel": "77.2",
    "pts": 72,
    "fx": [
     {
@@ -345,7 +345,7 @@
    "news": "Thigh injury - Unknown return date",
    "price": 7.6,
    "form": "0.0",
-   "sel": "27.5",
+   "sel": "27.4",
    "pts": 47,
    "fx": [
     {
@@ -474,5 +474,5 @@
   }
  },
  "ok": true,
- "updated": "2026-11-25 23:18"
+ "updated": "2026-11-26 07:21"
 }
