@@ -1,55 +1,5 @@
 {
- "items": [
-  {
-   "title": "برقية تعميمية رقم (82241) وتاريخ 1447/10/16هـ",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tZUNPNnh4Mk8ybVRDbEZlcVR3N2ZFNnJqT0ctaUt1RWJmNW56VFdkYlhlZ2s4VzhZNll4SnNDbmlXN0xzaDBWT2RtMUFPalY5bEFuQm1ZeW5hMHp0U3oyd0x2X3lvbGc?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "20 Nov 2026"
-  },
-  {
-   "title": "نظام المعاملات التجارية",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42SlJHOWlpYktlaGh5RTBoeWVxMEZvMUNkM3N2VkRpbjBRY3JOUnJNeExGZ0RLT2NfSm43ampkUktiRkVUOUdSejlmd3haQS0xUFQ5c2xlZ2kyel85SHRjZ01TdUdNcDg?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "13 Nov 2026"
-  },
-  {
-   "title": "جريدة أم القرى | الجريدة الرسمية السعودية",
-   "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9oakRPbUQzMnpKMDBoTHdqSFNTUGVzenROcmczeGlJdFFkdnJOQTdXZVI2b3pjcGlpNHVj?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "07 Jun 2017"
-  },
-  {
-   "title": "لائحة فحوصات اللياقة المهنية والأمراض غير المعدية",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHemc3VUROWHQxbjBOa0M3MDNjTkRvWVhsTTdnclhVTDFJai1zOG9JZU1mcThpellMRGUtMGx5WmFLdEg3US1ETHpIRTdTOGM?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "23 Oct 2025"
-  },
-  {
-   "title": "اشتراط تقديم ضمان مالي للحصول على ترخيص فئة خدمات سفر وسياحة عام",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mV0tXLUtIdGhhX05KclhsazZwbi0xNXp0THlfcXNlYmlQcDFESklVWll5eDg1WmdJMjhPQlRmWUIzUlBiVTVPRXd0OVpmX2JYT3dJeDhaYkZEb2ZOT2dVZDJfN2ZnY3M?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "25 Sep 2026"
-  },
-  {
-   "title": "آلية تعديل أوضاع المصرحين لممارسة نشاط مرفق الضيافة السياحي الخاص",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04bFVva2ZubURWU0FmR0dtNWZQMWJ2SDcxNGRlMVU1NVJZWGpncHpmVU9Id1ZvUnVxa2RuTUV6YkpvcGxEVk40OUhiUjVIeUpKLW5manBnRlFXQlNBaUNmcU45SDdtZzA?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "11 Sep 2026"
-  },
-  {
-   "title": "تعديل أنظمة التوثيق والتحكيم والمحاماة",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rUGN2X3ROVXFnTjZIRFQ5a0dkSmJrVko2SFZHZ21IYkxtM0hEY1JSUmxXekJqZXpjbm13eFJQa3pYYUV4dzJRRUxpX2RJUTg?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "31 Jul 2025"
-  },
-  {
-   "title": "تنظيم الهيئة العامة للطرق",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fVExRalllYXpxbGF2VlFSNzI5ZzBwWVN2T2JPSS1oVW9RRHlwazhYMlhWUHdMald4YnF2M1ozR3gxVGZTdjNUMVcwRUllbU0yVzl1WkQ1bXhic1ZSMXpoaTF1UUZ4Uzg?oc=5",
-   "source": "جريدة أم القرى",
-   "date": "21 Aug 2026"
-  }
- ],
- "note": "عبر فهرس أخبار Google — uqn.gov.sa غير متاح مباشرة من الخادم",
- "ok": true,
- "updated": "2026-11-27 15:15"
+ "ok": false,
+ "error": "HTTP Error 429: Too Many Requests",
+ "updated": "2026-11-27 16:25"
 }
