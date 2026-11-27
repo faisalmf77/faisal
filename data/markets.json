@@ -12,19 +12,19 @@
   {
    "sym": "GC=F",
    "name": "Gold Dec 26",
-   "price": 3657.3,
-   "chg": 3.44,
+   "price": 3649.1,
+   "chg": 3.2,
    "cur": "USD",
-   "time": "11-27 18:11",
+   "time": "11-27 19:07",
    "label": "الذهب (أونصة)"
   },
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 90.87,
-   "chg": -3.95,
+   "price": 90.48,
+   "chg": -4.37,
    "cur": "USD",
-   "time": "11-27 18:11",
+   "time": "11-27 19:07",
    "label": "برنت"
   },
   {
@@ -33,10 +33,10 @@
    "price": 3.7512,
    "chg": null,
    "cur": "SAR",
-   "time": "11-27 18:15",
+   "time": "11-27 18:51",
    "label": "الدولار/ريال"
   }
  ],
  "ok": true,
- "updated": "2026-11-27 18:21"
+ "updated": "2026-11-27 19:17"
 }

@@ -29,15 +29,15 @@
  },
  "ksaTop": [
   {
-   "team": "Al Hilal",
-   "gamesPlayed": "11",
-   "points": "30",
+   "team": "Al Qadsiah",
+   "gamesPlayed": "13",
+   "points": "31",
    "rank": "1"
   },
   {
-   "team": "Al Qadsiah",
-   "gamesPlayed": "12",
-   "points": "28",
+   "team": "Al Hilal",
+   "gamesPlayed": "11",
+   "points": "30",
    "rank": "2"
   },
   {
@@ -110,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-27 18:21"
+ "updated": "2026-11-27 19:17"
 }
