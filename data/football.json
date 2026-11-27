@@ -47,14 +47,14 @@
    "rank": "3"
   },
   {
-   "team": "Al Ahli",
+   "team": "Al Ittihad",
    "gamesPlayed": "12",
-   "points": "24",
+   "points": "27",
    "rank": "4"
   },
   {
-   "team": "Al Ittihad",
-   "gamesPlayed": "11",
+   "team": "Al Ahli",
+   "gamesPlayed": "12",
    "points": "24",
    "rank": "5"
   }
@@ -65,10 +65,10 @@
    "name": "CHE @ NFO",
    "home": "Nottingham Forest",
    "away": "Chelsea",
-   "hs": "0",
+   "hs": "1",
    "as": "0",
-   "state": "pre",
-   "detail": "Scheduled"
+   "state": "in",
+   "detail": "24'"
   }
  ],
  "plTop": [
@@ -110,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-27 22:23"
+ "updated": "2026-11-27 23:23"
 }
