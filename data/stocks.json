@@ -30,8 +30,8 @@
   {
    "sym": "FIG",
    "name": "Figma, Inc.",
-   "price": 17.715,
-   "chg": 3.54,
+   "price": 17.73,
+   "chg": 3.62,
    "cur": "USD",
    "time": "11-27 21:00",
    "label": "Figma, Inc."
@@ -39,10 +39,10 @@
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 90.13,
-   "chg": -4.74,
+   "price": 90.57,
+   "chg": -4.27,
    "cur": "USD",
-   "time": "11-27 21:06",
+   "time": "11-27 22:12",
    "label": "برنت"
   },
   {
@@ -92,5 +92,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-27 21:16"
+ "updated": "2026-11-27 22:23"
 }
