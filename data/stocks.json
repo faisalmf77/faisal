@@ -22,9 +22,9 @@
    "sym": "DVLT",
    "name": "Datavault AI Inc.",
    "price": 0.0279,
-   "chg": 39.5,
+   "chg": -7.0,
    "cur": "USD",
-   "time": "11-25 23:59",
+   "time": "11-27 16:31",
    "label": "Datavault AI Inc."
   },
   {
@@ -39,10 +39,10 @@
   {
    "sym": "BZ=F",
    "name": "Brent Crude Oil Last Day Financ",
-   "price": 91.92,
-   "chg": -2.84,
+   "price": 91.49,
+   "chg": -3.3,
    "cur": "USD",
-   "time": "11-27 16:12",
+   "time": "11-27 17:11",
    "label": "برنت"
   },
   {
@@ -92,5 +92,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-27 16:25"
+ "updated": "2026-11-27 17:21"
 }

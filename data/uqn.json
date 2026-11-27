@@ -1,5 +1,55 @@
 {
- "ok": false,
- "error": "HTTP Error 429: Too Many Requests",
- "updated": "2026-11-27 16:25"
+ "items": [
+  {
+   "title": "لائحة شؤون القضاة الوظيفية",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LRlBfYy1OeUFodU9acXdTVFducUc2dm8tVU1wYTJvOEswTDN4YThoT1hUUXdHd0tLSVR0UGxrQTBmZG5zdUpnVFZjYW96SThLVloyWjAyOHAtVWcwSW00cWlVT25TLVU?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "26 Nov 2026"
+  },
+  {
+   "title": "ضوابط الإسناد للشراكة مع القطاع الخاص وغير الربحي في التعليم العام.",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MWXZkQ3dTYU5vWHllaGFCVS1rU0ZtOW9haFlRMmgzdzRJcHEtamdtRnF4Mm9FUnczVnI4UnZpRDdPTWhGUVlOdXZ4SUI2WHRVQXB1NElSYi1EaVpIeVctRlFnZzMzc2s?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "20 Nov 2026"
+  },
+  {
+   "title": "برقية تعميمية رقم (82241) وتاريخ 1447/10/16هـ",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tZUNPNnh4Mk8ybVRDbEZlcVR3N2ZFNnJqT0ctaUt1RWJmNW56VFdkYlhlZ2s4VzhZNll4SnNDbmlXN0xzaDBWT2RtMUFPalY5bEFuQm1ZeW5hMHp0U3oyd0x2X3lvbGc?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "20 Nov 2026"
+  },
+  {
+   "title": "نظام المعاملات التجارية",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42SlJHOWlpYktlaGh5RTBoeWVxMEZvMUNkM3N2VkRpbjBRY3JOUnJNeExGZ0RLT2NfSm43ampkUktiRkVUOUdSejlmd3haQS0xUFQ5c2xlZ2kyel85SHRjZ01TdUdNcDg?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "13 Nov 2026"
+  },
+  {
+   "title": "قواعد مراجعي حسابات المنشآت الخاضعة لإشراف هيئة السوق المالية",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0ySzJqUmVFMGNLcXdDWHc0WDhLQk1NUDR6QmtEekk4VjVtZkNtMkdqMWk2azZZX2hvakNUaWhDMURDa05EWC1kWlJRZGFMRXZzNmotR084TmJNVGRibjdwT1pQejQ0bFE?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "23 Oct 2026"
+  },
+  {
+   "title": "اللائحة المنظمة للمؤسسات التعليمية الخاصة.",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zem9ia0xPMXJ6ekJDSWNodmJYWUtuZWVBWnFqWnNUVUpjWERYZHREejZNMDBHWWRTNEk1YXJqM2xqR2tyNF90WjVsc0o1UHduOGZUN21wU3J1UW5WWWEtLUpnMHR0QUE?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "30 Oct 2026"
+  },
+  {
+   "title": "إلغاء اللجنة الوطنية للبرمجيات الحكومية الحرة ومفتوحة المصدر",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9mM08wQTZNS3J0SEoteF9RZVdmanZnT0xObTNYSmxtdkJZaVk3WC1maWd6NC1xODI4ZHpiQWN6QnczY2JCUDY1RzdlWGx4QmhGTS1yMUNPbnk5aUxtN1d1YVJ6anpyeGM?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "29 Oct 2026"
+  },
+  {
+   "title": "تعديل اللائحة التنفيذية لنظام التسجيل العيني للعقار",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xVlkwemZwbUQybjFoUXEybUx0V2MxY2RRMmZyV2F4Z3pYQTUxeEJ3YkFJQ3ZIYnptMnUzUXhBZFJFNzBYNkMwYmlVbV9xSGZGWkFjOFBtQ0NHNE0xRzFBek9qS3VkVm8?oc=5",
+   "source": "جريدة أم القرى",
+   "date": "29 Oct 2026"
+  }
+ ],
+ "note": "عبر فهرس أخبار Google — uqn.gov.sa غير متاح مباشرة من الخادم",
+ "ok": true,
+ "updated": "2026-11-27 17:21"
 }
