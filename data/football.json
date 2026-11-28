@@ -61,14 +61,34 @@
  ],
  "pl": [
   {
-   "date": "2026-11-27T20:00Z",
-   "name": "CHE @ NFO",
-   "home": "Nottingham Forest",
-   "away": "Chelsea",
-   "hs": "3",
-   "as": "2",
-   "state": "post",
-   "detail": "FT"
+   "date": "2026-11-28T15:00Z",
+   "name": "COV @ LEE",
+   "home": "Leeds United",
+   "away": "Coventry City",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-28T15:00Z",
+   "name": "BRE @ MAN",
+   "home": "Manchester United",
+   "away": "Brentford",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
+  },
+  {
+   "date": "2026-11-28T17:30Z",
+   "name": "AVL @ IPS",
+   "home": "Ipswich Town",
+   "away": "Aston Villa",
+   "hs": "0",
+   "as": "0",
+   "state": "pre",
+   "detail": "Scheduled"
   }
  ],
  "plTop": [
@@ -110,5 +130,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-28 10:24"
+ "updated": "2026-11-28 11:18"
 }
