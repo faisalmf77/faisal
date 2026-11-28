@@ -65,10 +65,10 @@
    "name": "CHE @ NFO",
    "home": "Nottingham Forest",
    "away": "Chelsea",
-   "hs": "1",
-   "as": "0",
-   "state": "in",
-   "detail": "24'"
+   "hs": "3",
+   "as": "2",
+   "state": "post",
+   "detail": "FT"
   }
  ],
  "plTop": [
@@ -110,5 +110,5 @@
   }
  ],
  "ok": true,
- "updated": "2026-11-27 23:23"
+ "updated": "2026-11-28 07:21"
 }
